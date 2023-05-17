@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "mainPage": "Main page",
+    "cards": "Cards",
+    "myCards": "My cards",
+    "cardApplications": "Card applications",
+    "cardProducts": "Card products",
+    "transfers": "Transfers",
+    "loans": "Loans",
+    "myLoans": "My loans",
+    "loanProducts": "Loan products",
+    "applyForALoan": "Apply for a loan",
+    "deposits": "Deposits",
+    "investing": "Investing",
+    "insurance": "Insurance",
+    "dealsAndOffers": "Deals & offers"
+  }
+}

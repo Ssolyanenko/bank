@@ -1,0 +1,22 @@
+@import 'src/styles/variables.module.scss';
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 36px;
+
+  .label {
+    max-width: 345px;
+    width: 100%;
+    color: $grayDark_7;
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+
+  .error {
+    color: $error_3;
+    margin: 8px 0 0 14px;
+    font-size: 0.875rem;
+  }
+}

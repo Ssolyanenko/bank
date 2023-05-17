@@ -1,0 +1,21 @@
+export const REG_EXP: { [field: string]: RegExp } = {
+  numbers: /^[0-9]+$/gi,
+  numbersAndCommas: /^(0\.00)$|^(?!0(?!\.))(?!0\.00)(?!25,000\.01)(?:(?:[1-9]\d{0,2}|0)(,\d{3})*)?(?:\.\d{2})?$/gi,
+  numbersAndLetters: /^[\w\d]+$/giu,
+  phone: /^[+]{1}[4]{1}[4]{1}[\s]{1}[0-9]{10}$/gi,
+  transferPhone: /^[+][\d]{11,13}$/g,
+  maxAmount: /^[0-4]{1}[0-9]{3}|[5]{1}[0]{3}$/gi,
+  minAmount: /^(?!0)([1-9][0-9]{3,}|[1-9][0-9]{2,}[0-9])$/,
+  letters: /^[a-zA-Z]+$/gu,
+  lettersAndSpaces: /(^[a-z\s]+$)/gi,
+  streetName: /^([a-z0-9]+[.']?)(\s?[a-z0-9]+(([.]['])|(['][.])|[.]|['])?)*$/gi,
+  lettersNumbersSpaces: /^[a-zA-Z0-9]+[a-zA-Z0-9\s-]+$/,
+  apartment: /^((^\d|^\w)([\d\w._/]{1,})?)$/gi,
+  postCode:
+    /((([a-z]{1}[0-9]{1})|([a-z]{1}[0-9]{2})|([a-z]{2}[0-9]{1})|([a-z]{2}[0-9]{2})|([a-z]{1}[0-9]{1}[a-z]{1})|([a-z]{2}[0-9]{1}[a-z]{1}))([ ][0-9]{1}[a-bd-hjlnp-uw-z]{2}))/gi,
+  spaces: /^[a-z0-9]+((([\s"#*+%?])(?!\3))+[a-z0-9]+)*(([\s"#*+%?])(?!\5))*(?<!\s)$/gi,
+  password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{7,}$/,
+  email: /^[a-z0-9]+((([!#$%&'*+\-/=?^_`{|}~.])(?!\3))+[a-z0-9]+)*@([a-z0-9]+.)+[a-z]{2,6}$/gi,
+  organisation: /(^[a-z])(?!.* {2})([a-z&' ]+$)/gi,
+  lettersAndOneSpaceAllowed: /^[a-z]+(\s{1}[a-z]+)*$/gi,
+};

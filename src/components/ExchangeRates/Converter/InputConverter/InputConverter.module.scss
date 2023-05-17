@@ -1,0 +1,38 @@
+@import 'src/styles/variables.module.scss';
+
+.container {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+
+  .underline {
+    height: 2px;
+    margin-top: 0.5rem;
+    background: $grayDark_7;
+  }
+
+  .textOperation {
+    font-weight: $normal;
+    font-size: 0.75rem;
+    line-height: 2;
+    color: $grayDark_7;
+  }
+
+  .inputContainer {
+    .textRate {
+      position: absolute;
+      font-weight: $normal;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $grayDark_6;
+    }
+
+    .inputValue {
+      height: 1.5rem;
+      padding-left: 1rem;
+      border-color: transparent;
+      background-color: transparent;
+      outline: transparent;
+    }
+  }
+}

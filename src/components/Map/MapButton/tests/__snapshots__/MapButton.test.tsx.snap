@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MapButton /> should make a snapshot 1`] = `
+<div
+  className="request"
+>
+  <div
+    className="buttonRequest"
+  >
+    <TransferIcon
+      className=""
+    />
+    <div
+      className="textInform"
+    >
+      Transfer
+    </div>
+  </div>
+</div>
+`;

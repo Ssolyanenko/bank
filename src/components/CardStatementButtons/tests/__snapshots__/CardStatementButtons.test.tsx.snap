@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardStatementButtons /> component renders without error 1`] = `
+<ul
+  className="buttonsList"
+>
+  <li
+    className="dateInputs"
+  >
+    <Button
+      className="button"
+      isDisabled={true}
+      type="submit"
+    >
+      <VisibilityIcon />
+      Show statement
+    </Button>
+  </li>
+  <li
+    className="dateInputs"
+  >
+    <Button
+      className="button"
+      isDisabled={true}
+      type="submit"
+    >
+      <DownloadIcon />
+      Download statement
+    </Button>
+  </li>
+  <li
+    className="dateInputs"
+  >
+    <Button
+      className="button"
+      isDisabled={true}
+      type="submit"
+    >
+      <MailIcon />
+      Send to email
+    </Button>
+  </li>
+  <li
+    className="dateInputs"
+  >
+    <Button
+      className="button"
+      isDisabled={true}
+      type="submit"
+    >
+      <ShareIcon />
+      Share statement
+    </Button>
+  </li>
+</ul>
+`;

@@ -1,0 +1,107 @@
+@import 'src/styles/variables.module.scss';
+
+.branch {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 175px);
+  background: $white_1;
+
+  .branchInform {
+    overflow-y: auto;
+    max-height: calc(100vh - 288px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $grayLight_5;
+    flex: 1 0 auto;
+    width: 364px;
+
+    .work {
+      border: 1px solid $grayLight_5;
+      padding-left: 16px;
+      padding-top: 16.5px;
+
+      .text {
+        font-weight: 900;
+      }
+
+      .weekDay {
+        margin-top: 22px;
+        display: flex;
+
+        .buttonDay {
+          background: $grayLight_5;
+          border: 1px solid $grayLight_5;
+          font-weight: 100;
+          width: 36px;
+          height: 32px;
+          margin-right: 8px;
+          cursor: pointer;
+
+          &.active {
+            background: $brand_5;
+            font-weight: 800;
+          }
+        }
+      }
+
+      .workingHour {
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 22px;
+
+        .icon {
+          margin-right: 22px;
+        }
+      }
+    }
+
+    .services {
+      display: flex;
+      flex-direction: column;
+      padding-top: 16.5px;
+      margin-left: 16px;
+
+      .text {
+        font-weight: 900;
+        margin-bottom: 22px;
+      }
+
+      .service {
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+
+        .operation {
+          background: $grayLight_5;
+          border: 1px solid $grayLight_5;
+          border-radius: 50%;
+          padding: 3px;
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+
+  .makeRoute {
+    position: relative;
+    height: 116px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .build {
+      background: $orange;
+      border-radius: 2px;
+      border: 1px solid $orange;
+      padding: 6px;
+      font-weight: 900;
+      width: 90%;
+      text-align: center;
+      cursor: pointer;
+      height: 50%;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+@import 'src/styles/variables.module.scss';
+
+.form {
+  max-width: 407px;
+  max-height: 492px;
+  height: 100%;
+  width: 100%;
+  background-color: $white_1;
+  margin-top: 14px;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+
+  .formHeader {
+    margin-bottom: 30px;
+
+    .formHeaderTitle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-weight: $extra_bold;
+      font-size: 2.5rem;
+      line-height: 1.55;
+      color: $grayDark_6;
+    }
+
+    .formHeaderName {
+      font-style: normal;
+      font-weight: $bold;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $grayDark_6;
+      margin-left: 60px;
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 55.85%;
+        height: 2px;
+        background: $orange;
+        left: -58px;
+        top: 120%;
+        position: absolute;
+      }
+    }
+  }
+
+  .formError {
+    font-style: normal;
+    font-weight: $normal;
+    font-size: 0.75rem;
+    line-height: 1.33;
+    color: $error_3;
+    margin-top: 10px;
+  }
+
+  .formInputLogin {
+    margin: auto auto 17px auto;
+  }
+
+  .formInputPassword {
+    margin-bottom: 20px;
+  }
+
+  .formButtonLogin {
+    margin-bottom: 12px;
+  }
+
+  .formLinks {
+    text-align: right;
+  }
+}
+
+.buttonSubmit {
+  margin-top: 0;
+}
+
+.buttonLink {
+  cursor: pointer;
+  border: none;
+  background-color: $transparent;
+  font-weight: $normal;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: $grayDark_6;
+  border-bottom: 1px solid $grayDark_6;
+}
+
+.backButton {
+  margin-left: -11px;
+}
+
+.modalText {
+  align-self: center;
+  font-weight: $bold;
+  font-size: 1.25rem;
+  padding: 32px 0 40px;
+}
+
+.modalIcon {
+  align-self: center;
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+}
+
+.firstLogin {
+  background-color: $white_1;
+  position: absolute;
+  z-index: 3;
+  width: 600px;
+  height: max-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px $transparent_7, 0px 5px 10px $transparent_7;
+  padding-left: 20px;
+
+  .text {
+    font-weight: $bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}

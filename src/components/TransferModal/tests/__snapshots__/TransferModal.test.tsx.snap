@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Transfer modal /> should render component for failed transfer 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="603px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="failureContainer"
+  >
+    <div
+      className="modalCloseButton"
+    >
+      <CloseButton
+        onClick={[MockFunction]}
+        size="medium"
+      />
+    </div>
+    <div
+      className="failureContentWrapper"
+    >
+      <ExclamationMarkIcon
+        className="modalIcon"
+      />
+      <p
+        className="failureTitle"
+      >
+        Transaction denied.
+      </p>
+      <div
+        className="modalText"
+      >
+        Unfortunately, there is an issue on the recepient's side.
+        <br />
+        For more information, please, contact the support service.
+      </div>
+    </div>
+  </div>
+</ModalConfirmation>
+`;
+
+exports[`<Transfer modal /> should render component for successful transfer 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="603px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="successContainer"
+  >
+    <div
+      className="modalCloseButton"
+    >
+      <CloseButton
+        onClick={[MockFunction]}
+        size="medium"
+      />
+    </div>
+    <div
+      className="successContentWrapper"
+    >
+      <CheckmarkIcon
+        className="modalIcon"
+      />
+      <p
+        className="successTitle"
+      >
+        The transfer is successfully sent
+      </p>
+      <ReceiptButtons
+        handleClickShareModal={[Function]}
+      />
+    </div>
+  </div>
+</ModalConfirmation>
+`;

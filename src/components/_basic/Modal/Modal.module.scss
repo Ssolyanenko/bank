@@ -1,0 +1,14 @@
+@import 'src/styles/variables.module.scss';
+
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  border: none;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  background-color: $white_1;
+  outline: transparent;
+}

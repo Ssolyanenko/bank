@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomRoutes /> should make a snapshot of component 1`] = `
+<Routes>
+  <div />
+  <Route
+    element={
+      <Navigate
+        to="/page-not-found"
+      />
+    }
+    path="*"
+  />
+</Routes>
+`;

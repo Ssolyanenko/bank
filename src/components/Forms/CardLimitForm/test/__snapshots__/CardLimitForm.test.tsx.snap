@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardLimitForm /> should make a snapshot of the component 1`] = `
+<React.Fragment>
+  <Formik
+    initialValues={
+      {
+        "limit": "5,000.00",
+        "limitInfoCheckbox": false,
+      }
+    }
+    onSubmit={[Function]}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": ReferenceSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_excludedEdges": [],
+        "_mutate": undefined,
+        "_nodes": [
+          "limitInfoCheckbox",
+          "limit",
+        ],
+        "_sortErrors": [Function],
+        "_typeError": [Function],
+        "_whitelist": ReferenceSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "conditions": [],
+        "deps": [],
+        "exclusiveTests": {},
+        "fields": {
+          "limit": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "is not equall to zero": false,
+              "required": true,
+            },
+            "spec": {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "limitInfoCheckbox": BooleanSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {
+                true,
+              },
+              "refs": Map {},
+            },
+            "_whitelistError": [Function],
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {},
+            "spec": {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "optional",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [],
+            "transforms": [
+              [Function],
+            ],
+            "type": "boolean",
+          },
+        },
+        "spec": {
+          "abortEarly": true,
+          "nullable": false,
+          "presence": "optional",
+          "recursive": true,
+          "strict": false,
+          "strip": false,
+        },
+        "tests": [],
+        "transforms": [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    [Function]
+  </Formik>
+  <ModalSuccess
+    handleClose={[Function]}
+    isOpen={false}
+    text="Your transaction limit is set"
+  />
+  <SetPinCodeFormModal
+    buttonName="Change"
+    handleClose={[Function]}
+    handlePinChangeModal={[Function]}
+    isOpen={false}
+    title="Change PIN code"
+  />
+  <SetPinSuccessModal
+    handleClose={[Function]}
+    isOpen={false}
+    status="success"
+  />
+</React.Fragment>
+`;

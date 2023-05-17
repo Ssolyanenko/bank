@@ -1,0 +1,13 @@
+@import 'src/styles/variables.module.scss';
+
+.mainPage {
+  margin: 64px 0;
+
+  .main {
+    padding: 0 72px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

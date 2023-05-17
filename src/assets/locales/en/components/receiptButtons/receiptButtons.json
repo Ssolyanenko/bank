@@ -1,0 +1,8 @@
+{
+  "receiptButtons": {
+    "showReceipt": "Show receipt",
+    "downloadReceipt": "Download receipt",
+    "sendToEmail": "Send to email",
+    "shareReceipt": "Share receipt"
+  }
+}

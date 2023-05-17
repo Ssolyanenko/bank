@@ -1,0 +1,10 @@
+@import 'src/styles/variables.module.scss';
+
+.radioButton:nth-child(1n) {
+  color: $grayDark_7;
+}
+
+.modalChooseCard {
+  column-gap: 20px;
+  padding-left: 7px;
+}

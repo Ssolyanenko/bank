@@ -1,0 +1,19 @@
+@import 'src/styles/variables.module.scss';
+
+.modalText {
+  align-self: center;
+  padding: 2.8vh 0 3.5vh;
+  color: $grayDark_6;
+}
+
+.modalIcon {
+  align-self: center;
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+}
+
+.modalFakeIcon {
+  height: 100px;
+}

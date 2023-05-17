@@ -1,0 +1,6 @@
+{
+  "notFoundPage": {
+    "title": "Page not found",
+    "message": "The page you are looking for could have been deleted or never existed."
+  }
+}

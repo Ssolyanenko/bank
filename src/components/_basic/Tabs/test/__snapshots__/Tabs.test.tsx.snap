@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should make a snapshot of component 1`] = `
+<ul
+  className="tabs"
+>
+  <li
+    className="title "
+  >
+    <TabTitle
+      index={0}
+      selectedTab={0}
+      setSelectedTab={[Function]}
+      title="General Info"
+    />
+  </li>
+  <div
+    title="General Info"
+  >
+    <GeneralInfo />
+  </div>
+</ul>
+`;
+
+exports[`<Tabs /> test when children is empty 1`] = `
+<ul
+  className="tabs"
+>
+  <li
+    className="title "
+  />
+</ul>
+`;

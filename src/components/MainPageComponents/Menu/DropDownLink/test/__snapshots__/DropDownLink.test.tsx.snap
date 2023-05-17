@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDownLink /> should make a snapshot 1`] = `
+<ul
+  className="linkWrapper"
+>
+  <li>
+    <NavLink
+      className={[Function]}
+      end={true}
+      to="my-loans"
+    >
+      My loans
+    </NavLink>
+  </li>
+  <li>
+    <NavLink
+      className={[Function]}
+      end={false}
+      to="loan-products"
+    >
+      Loan products
+    </NavLink>
+  </li>
+  <li>
+    <NavLink
+      className={[Function]}
+      end={false}
+      to="apply-loan"
+    >
+      Apply for a loan
+    </NavLink>
+  </li>
+</ul>
+`;

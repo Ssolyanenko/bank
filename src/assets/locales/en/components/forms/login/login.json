@@ -1,0 +1,17 @@
+{
+  "login": {
+    "formHeaderTitle": "Log in",
+    "inputLabels": {
+      "login": "Login",
+      "password": "Password"
+    },
+    "inputPlaceholders": {
+      "login": "Login",
+      "password": "Password"
+    },
+    "smsSentSuccessfully": "Sms sent successfully",
+    "resetPassword": "Reset password",
+    "successfullyLoggedIn": "You have successfully logged into an account!",
+    "proceed": "Proceed"
+  }
+}

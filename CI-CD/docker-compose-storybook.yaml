@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  storybook:
+    container_name: $PROJECT-storybook-$CI_COMMIT_BRANCH
+    image: $AND_DOCKER_REGISTRY_NAME/$PROJECT-storybook:$CI_COMMIT_BRANCH
+    env_file: $AND_ENV
+    ports:
+      - 6006:6006
+    restart: always
+    logging:
+      driver: loki
+      options:
+        loki-url: http://127.0.0.1:3100/loki/api/v1/push
+        max-size: 300m
+    networks:
+      - amusic-2-new-net
+
+networks:
+  amusic-2-new-net:
+    driver: bridge

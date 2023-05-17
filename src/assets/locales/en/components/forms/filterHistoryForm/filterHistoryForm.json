@@ -1,0 +1,15 @@
+{
+  "filterHistoryForm": {
+    "title": "Filters",
+    "operationType": "The operation type",
+    "incoming": "Incoming",
+    "outgoingTransfers": "Outgoing transfers",
+    "payments": "Payments",
+    "transactionAmount": "Transaction Amount",
+    "fromTitle": "From (GBP)",
+    "toTitle": "Up to (GBP)",
+    "search": "Search",
+    "dateFrom": "From {{dateFrom}} ",
+    "dateTo": "To {{dateTo}}"
+  }
+}

@@ -1,0 +1,72 @@
+@import 'src/styles/variables.module.scss';
+
+.operationHistory {
+  width: 660px;
+  height: 312px;
+
+  .operationContainer {
+    overflow-y: scroll;
+  }
+
+  .operations {
+    display: flex;
+    flex-direction: column;
+
+    .operation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .dateContainer {
+      display: flex;
+      flex-direction: column;
+      font-weight: $normal;
+      font-size: 12px;
+      margin: 34px 32px 36px 40px;
+
+      .time {
+        color: $grayDark_7;
+      }
+    }
+
+    .iconContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background-color: $brand_4;
+      border-radius: 16px;
+      margin-right: 32px;
+
+      .icon {
+        width: 20px;
+        height: 16px;
+        fill: $white_1;
+      }
+    }
+
+    .descriptionContainer {
+      display: flex;
+      flex-direction: column;
+      font-weight: $normal;
+      font-size: 12px;
+
+      .descriptionText {
+        color: $grayDark_7;
+      }
+    }
+
+    .amount {
+      font-weight: $bold;
+      font-size: 14px;
+      color: $error_3;
+      margin: 0 106px 0 auto;
+
+      .rate {
+        font-weight: $normal;
+      }
+    }
+  }
+}

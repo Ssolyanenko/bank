@@ -1,0 +1,42 @@
+@import 'src/styles/variables.module.scss';
+
+.debitTravelWrapper {
+  max-width: 910px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 3.5rem;
+
+  .debitTravelCard {
+    margin: -10px 0 0 42px;
+    color: $grayDark_6;
+    width: 100%;
+    max-width: 735px;
+
+    .title {
+      margin: 0 0 70px 0;
+      font-size: 2rem;
+      font-weight: $bold;
+      line-height: 1.5;
+    }
+
+    .cardInfo {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 72px;
+    }
+
+    .cardInfoList {
+      margin: 0 0 0 42px;
+
+      .item {
+        font-size: 1rem;
+        line-height: 1.4;
+
+        &:not(:last-child) {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}

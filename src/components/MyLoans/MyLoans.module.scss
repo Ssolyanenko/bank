@@ -1,0 +1,60 @@
+@import 'src/styles/variables.module.scss';
+
+.myLoansWrapper {
+  width: 849px;
+  display: flex;
+  margin-left: 170px;
+  flex-direction: column;
+
+  .title {
+    height: 36px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: $grayDark_6;
+  }
+
+  .noLoans {
+    width: 859px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    background: $grayLight_5;
+
+    .link {
+      margin: 0 7px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .myLoansTable {
+    width: 73%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    height: 300px;
+    border: 1px solid $grayLight_5;
+    border-bottom: none;
+    border-radius: 6px;
+  }
+
+  .myLoanApplicationsWrapper {
+    width: 95%;
+    margin-top: 64px;
+
+    .loansAppTable {
+      border: 1px solid $grayLight_5;
+      border-top: none;
+      border-radius: 6px;
+    }
+  }
+}

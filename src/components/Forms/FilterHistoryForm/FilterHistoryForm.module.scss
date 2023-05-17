@@ -1,0 +1,230 @@
+@import 'src/styles/variables.module.scss';
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .searchContainer {
+      flex: 1 1 auto;
+      position: relative;
+    }
+
+    .searchInput {
+      opacity: 0.8;
+      border: 1px solid $grayLight_10;
+      border-radius: 100px;
+      width: 100%;
+      padding: 13px 20px 14px;
+      font-weight: $normal;
+      font-size: 1rem;
+      color: $grayDark_5;
+
+      &:focus::placeholder {
+        color: transparent;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      top: 13px;
+      right: 20px;
+      width: 24px;
+      height: 24px;
+    }
+
+    .iconFilter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 40px;
+      width: fit-content;
+      padding: 10px 16px 10px 16px;
+      height: 48px;
+      border-radius: 40px;
+      background: $grayLight_5;
+      fill: $black;
+      color: $black;
+      cursor: pointer;
+
+      &.opened {
+        background-color: $grayDark_6;
+        fill: $white_1;
+        color: $white_1;
+      }
+    }
+  }
+
+  .filterIcon {
+    margin-left: 5px;
+  }
+
+  .dateFilter {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: $normal;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: $grayDark_8;
+
+    .choseData {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      width: 100%;
+      color: $grayDark_7;
+
+      .dateLabel {
+        max-width: 195px;
+        width: 100%;
+      }
+
+      .typeLabel {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .dateText {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.875rem;
+        color: $grayDark_8;
+      }
+
+      .filter {
+        width: 90%;
+        padding: 10px 12px;
+        border-radius: 3px;
+        border: 1px solid $grayDark_7;
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+      }
+
+      .selectList {
+        height: 48px;
+      }
+    }
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .filterWrapper {
+    margin-top: 50px;
+    max-width: 295px;
+    width: 100%;
+
+    .filterAmount {
+      margin-bottom: 46px;
+
+      .transactionText {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .amount {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 16px;
+
+        .line {
+          background-color: $grayDark_7;
+          height: 3px;
+          border-radius: 3px;
+          margin-top: 20px;
+          width: 20px;
+        }
+
+        .price {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          max-width: 117px;
+          width: 100%;
+        }
+
+        .amountInput {
+          text-align: center;
+          padding: 4px 4px;
+          width: 100%;
+          border: 1px solid $grayDark_7;
+          border-radius: 2px;
+          font-size: 1rem;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .range {
+      margin-top: 20px;
+
+      .inputRange {
+        color: $orange;
+      }
+
+      .minMax {
+        display: flex;
+        justify-content: space-between;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+      }
+    }
+
+    .buttonsWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 570px;
+      color: $grayDark_6;
+
+      .apply {
+        font-size: 1rem;
+        font-weight: $bold;
+        background-color: $orange;
+        color: inherit;
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+        max-width: 330px;
+        width: 100%;
+
+        &:disabled {
+          cursor: not-allowed;
+          color: $grayDark_2;
+        }
+      }
+
+      .btn {
+        cursor: pointer;
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        font-weight: $bold;
+        font-size: 0.875rem;
+      }
+
+      .hide {
+        border-bottom: 0.7px dashed $grayDark_6;
+      }
+
+      .reset {
+        text-decoration-line: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BranchContainer /> should make a snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="branchContainer"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="icon"
+      >
+        <BankIcon
+          className="icon"
+        />
+      </div>
+      <div
+        className="address"
+      >
+        <span
+          className="branchType"
+        >
+          ATM
+          #
+          11
+        </span>
+        <span
+          className="branchAddres"
+        >
+          2 Warple Way
+        </span>
+      </div>
+    </div>
+    <div
+      className="workHour"
+    >
+      <span
+        className="location"
+      >
+        100m
+      </span>
+      <span
+        className="open"
+      >
+        Open Now
+      </span>
+      <span
+        className="time"
+      >
+        24/7
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+@import 'src/styles/variables.module.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 56px;
+  gap: 42px;
+  color: $grayDark_6;
+
+  .cardsWrapper {
+    list-style-type: none;
+  }
+
+  .cardsList {
+    list-style-type: none;
+  }
+
+  .cardItem {
+    margin-top: 6.4vh;
+  }
+
+  .backButton {
+    padding: 0.5rem 3vw 0 0;
+  }
+
+  .pageTitle {
+    font-size: 2rem;
+    margin-top: -6px;
+  }
+
+  .cardBlockWrapper {
+    list-style: none;
+  }
+}
+
+.modalIcon {
+  align-self: center;
+}
+
+.modalText {
+  font-weight: $bold;
+  align-self: center;
+  padding: 2.8vh 0 3.5vh;
+  font-weight: $bold;
+  color: $grayDark_6;
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+}

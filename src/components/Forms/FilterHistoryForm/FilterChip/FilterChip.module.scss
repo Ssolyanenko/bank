@@ -1,0 +1,17 @@
+@import 'src/styles/variables.module.scss';
+
+.chip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  background: $grayLight_7;
+  border: 1px solid $grayLight_5;
+  border-radius: 20px;
+  width: fit-content;
+  margin-right: 20px;
+
+  .chipText {
+    margin-right: 10px;
+  }
+}

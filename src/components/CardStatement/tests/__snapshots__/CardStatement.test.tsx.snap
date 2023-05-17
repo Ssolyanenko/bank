@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardStatement /> renders without fallout 1`] = `
+<ForwardRef(Box)
+  className="formContainer"
+>
+  <ForwardRef(Box)
+    className="formTitleBox"
+  >
+    <CardStatementIcon
+      className="mainIcon"
+    />
+    <ForwardRef(Box)
+      className="formTitle"
+      component="h2"
+    >
+      Card Statement
+    </ForwardRef(Box)>
+  </ForwardRef(Box)>
+  <ForwardRef(Box)
+    className="dateFilter"
+  >
+    <ForwardRef(Box)
+      className="dateInputs"
+    >
+      <DatePicker
+        date={null}
+        label="From"
+        setDate={[Function]}
+      />
+      <DatePicker
+        date={null}
+        label="To"
+        setDate={[Function]}
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(Box)>
+  <CardStatementButtons
+    valueFrom={null}
+    valueTo={null}
+  />
+</ForwardRef(Box)>
+`;

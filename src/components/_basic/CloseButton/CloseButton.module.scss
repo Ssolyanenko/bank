@@ -1,0 +1,48 @@
+@import 'src/styles/variables.module.scss';
+
+.container {
+  position: relative;
+  align-self: center;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  stroke: $grayDark_7;
+}
+
+.balloonWrapper {
+  position: absolute;
+  z-index: 100;
+  bottom: 48px;
+  right: -14px;
+  filter: drop-shadow(0 3px 20px rgba(0, 0, 0, 0.1));
+}
+
+.balloon {
+  position: relative;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 160%;
+  white-space: nowrap;
+  color: var(--theme-baloonText);
+  border-radius: 4px;
+  background-color: var(--theme-baloonBackground);
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    right: 20px;
+    display: block;
+    border-top: 17px solid var(--theme-baloonBackground);
+    border-bottom: 0 solid transparent;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+  }
+}

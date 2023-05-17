@@ -1,0 +1,55 @@
+@import 'src/styles/variables.module.scss';
+
+.cityModal {
+  position: fixed;
+  width: 40%;
+  height: 50vh;
+  background: $white_1;
+  box-shadow: 0px 1px 10px $transparent_5, 0px 4px 5px $transparent_6, 0px 2px 2px $transparent_7;
+  border-radius: 8px;
+  margin-left: 30%;
+  margin-top: 25vh;
+  z-index: 1;
+
+  .cityModalContent {
+    display: inline-table;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 16px;
+
+    .location {
+      position: relative;
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    .title {
+      position: relative;
+      display: block;
+      height: auto;
+      margin-top: 32px;
+    }
+
+    .popularCities {
+      width: 100%;
+      height: auto;
+
+      .city {
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .closeButton {
+    height: auto;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    display: contents;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rates": {
+    "subTitles": {
+      "currency": "Currency",
+      "buying": "Buying",
+      "selling": "Selling"
+    }
+  }
+}

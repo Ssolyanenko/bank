@@ -1,0 +1,14 @@
+{
+  "security": {
+    "invalid": "Invalid characters. Answer may include lowercase and capital letters, numbers and special characters (space \" # * + %)",
+    "maxCharactersQuestion": "Security question must be less than 50 characters",
+    "minCharactersQuestion": "Security question must be at least 5 characters long",
+    "maxCharactersQuestionAnswer": "Security question answer must be less than 50 characters",
+    "required": "The field is required to fill out",
+    "doNotMatch": "Passwords do not match",
+    "min": "Password should contain at least 7 symbols",
+    "maxCharactersPassword": "Must be 20 characters or less",
+    "matches": "Field should contain uppercase, lowercase, only latin letters and 1 number",
+    "mustBeDifferent": "Passwords must be different"
+  }
+}

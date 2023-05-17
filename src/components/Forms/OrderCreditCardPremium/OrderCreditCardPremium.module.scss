@@ -1,0 +1,78 @@
+@import 'src/styles/variables.module.scss';
+
+.form {
+  position: relative;
+
+  .title {
+    padding: 72px 0 8px;
+    font-size: 1.5rem;
+  }
+
+  .titleBankBlock {
+    margin-top: 72px;
+  }
+
+  .elementWrapper {
+    margin-top: 36px;
+    width: 320px;
+  }
+
+  .notification {
+    color: $grayDark_8;
+    padding: 8px 0 0 14px;
+    font-size: 0.875rem;
+  }
+
+  .wrapperLink {
+    display: flex;
+
+    .downloadLink {
+      text-decoration: underline;
+      padding-left: 4px;
+    }
+  }
+
+  .wrapperButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .formButton {
+      min-width: 343px;
+
+      &:disabled {
+        background-color: $brand_4;
+        min-width: 343px;
+        border: none;
+        color: $grayDark_7;
+        cursor: auto;
+
+        &:hover {
+          border: none;
+          background-color: $brand_4;
+          color: $grayDark_7;
+        }
+      }
+    }
+  }
+
+  .error {
+    color: $error_3;
+    margin: 8px 0 0;
+    font-size: 0.875rem;
+  }
+}
+
+.modalText {
+  align-self: center;
+  padding: 36px 0 36px;
+  color: $grayDark_6;
+}
+
+.modalIcon {
+  align-self: center;
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+}

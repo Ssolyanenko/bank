@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SecurityForm/> should make a snapshot 1`] = `
+<ForwardRef(Box)
+  className="security"
+>
+  <Button
+    className="active tabTitle"
+    onClick={[Function]}
+    type="button"
+  >
+    Change password
+  </Button>
+  <Button
+    className=" tabTitle"
+    onClick={[Function]}
+    type="button"
+  >
+    Change security question
+  </Button>
+  <ChangePassword />
+</ForwardRef(Box)>
+`;

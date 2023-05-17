@@ -1,0 +1,35 @@
+{
+  "orderDebitSmartCard": {
+    "title": "Please fill the form",
+    "deliveryMethodNames": {
+      "byMail": "Parcel by mail",
+      "byCourier": "Express delivery by courier",
+      "atTheBank": "Pick up at the bank"
+    },
+    "fieldLabels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "deliveryType": "Delivery method *",
+      "bankBranch": "Bank Branch *",
+      "country": "Country",
+      "city": "Town/City *",
+      "house": "House Number",
+      "street": "Street Name",
+      "unit": "Unit",
+      "apartment": "Apartment",
+      "postCode": "Post Code"
+    },
+    "fieldPlaceholders": {
+      "deliveryType": "Delivery",
+      "bankBranch": "Select the bank",
+      "city": "Enter your Town/City",
+      "house": "Enter your house number",
+      "street": "Enter your street name",
+      "unit": "Enter your house unit",
+      "apartment": "Enter your apartment number",
+      "postCode": "Enter your postal code"
+    }
+  }
+}

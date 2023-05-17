@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabTitle /> should make a snapshot of component 1`] = `
+<button
+  className="tabTitle "
+  onClick={[Function]}
+>
+  tabs
+</button>
+`;
+
+exports[`<TabTitle /> should match snapshot of the TabTitle.story 1`] = `
+<React.Fragment>
+  <TabTitle
+    index={1}
+    selectedTab={0}
+    setSelectedTab={[Function]}
+    title="Tab 1"
+  />
+  <TabTitle
+    index={2}
+    selectedTab={0}
+    setSelectedTab={[Function]}
+    title="Tab 2"
+  />
+  <TabTitle
+    index={3}
+    selectedTab={0}
+    setSelectedTab={[Function]}
+    title="Tab 3"
+  />
+  <TabTitle
+    index={4}
+    selectedTab={0}
+    setSelectedTab={[Function]}
+    title="Tab 4"
+  />
+</React.Fragment>
+`;

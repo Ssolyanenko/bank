@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputSearchCity /> should make a snapshot 1`] = `
+<div
+  className="search"
+>
+  <span>
+    <SearchIcon
+      className="icon"
+    />
+  </span>
+  <input
+    className="searchInput"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Enter city name"
+    value=""
+  />
+</div>
+`;

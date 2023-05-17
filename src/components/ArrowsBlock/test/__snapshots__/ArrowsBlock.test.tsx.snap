@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowsBlock /> should match a shapshot of the component 1`] = `
+<div
+  className="arrowDown"
+>
+  <span />
+  <span />
+  <span />
+</div>
+`;

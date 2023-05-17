@@ -1,0 +1,35 @@
+@import 'src/styles/variables.module.scss';
+
+.buttonsList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  width: 447px;
+
+  .dateInputs {
+    display: flex;
+    margin-bottom: 16px;
+
+    .button {
+      width: 195px;
+      height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 0.875rem;
+      font-weight: $normal;
+      color: $grayDark_6;
+      gap: 16px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+
+    &:hover {
+      text-decoration: underline 2px $orange;
+      text-underline-offset: 6px;
+    }
+  }
+}

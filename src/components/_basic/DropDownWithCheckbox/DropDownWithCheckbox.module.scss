@@ -1,0 +1,25 @@
+@import 'src/styles/variables.module.scss';
+
+.dropDownItem:nth-child(1n) {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  min-height: 56px;
+  padding: 6px 16px;
+
+  &:hover {
+    background-color: $brand_4;
+
+    .text {
+      color: $grayDark_6;
+    }
+  }
+}
+
+.placeholder {
+  color: $grayDark_7;
+}
+
+.storybookWrapper {
+  width: 300px;
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> should make a snapshot 1`] = `
+<Context.Provider
+  value={
+    {
+      "getServerState": undefined,
+      "store": {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": {
+        "addNestedSub": [Function],
+        "getListeners": [Function],
+        "handleChangeWrapper": [Function],
+        "isSubscribed": [Function],
+        "notifyNestedSubs": [Function],
+        "trySubscribe": [Function],
+        "tryUnsubscribe": [Function],
+      },
+    }
+  }
+>
+  <Sidebar
+    calculateRoute={[MockFunction]}
+    city="London"
+    distance="100m"
+    handleActiveMarker={[MockFunction]}
+    setDirectionsResponse={[MockFunction]}
+    setIsOpenMarker={[MockFunction]}
+    setNewCity={[MockFunction]}
+    setZoom={[MockFunction]}
+  />
+</Context.Provider>
+`;

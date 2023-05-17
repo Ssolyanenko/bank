@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider /> should make a snapshot 1`] = `
+<div
+  className="slider"
+  style={
+    {
+      "transform": "translateX(0%)",
+    }
+  }
+>
+  <SliderItem
+    slide="images/landingBack.png"
+  />
+  <SliderItem
+    slide="images/landingBack2.png"
+  />
+  <SliderItem
+    slide="images/landingBack3.png"
+  />
+  <SliderItem
+    slide="images/landingBack4.png"
+  />
+</div>
+`;

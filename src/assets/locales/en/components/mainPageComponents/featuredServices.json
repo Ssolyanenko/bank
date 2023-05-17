@@ -1,0 +1,9 @@
+{
+  "featuredServices": {
+    "phoneRecharge": "Phone recharge",
+    "transferToCard": "Transfer to card",
+    "utilities": "Utilities",
+    "currencyExchange": "Currency exchange",
+    "add": "Add"
+  }
+}

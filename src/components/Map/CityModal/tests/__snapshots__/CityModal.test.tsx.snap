@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityModal /> should make a snapshot 1`] = `
+<div
+  className="cityModal"
+  role="presentation"
+>
+  <div
+    className="cityModalContent"
+    role="presentation"
+  >
+    <span
+      className="location"
+    >
+      Your are here: 
+      <span
+        className="cityName"
+      >
+         
+        London
+      </span>
+    </span>
+    <InputSearchCity
+      cities={
+        [
+          "",
+        ]
+      }
+      closeModal={[MockFunction]}
+      placeholder="Enter city name"
+      selectCity={[Function]}
+    />
+    <span
+      className="title"
+    >
+      Featured cities
+    </span>
+    <div
+      className="popularCities"
+    >
+      <span
+        className="city"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <MapButton
+          icon={<div />}
+          text="Mexico"
+        />
+      </span>
+      <span
+        className="city"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <MapButton
+          icon={<div />}
+          text="Roma"
+        />
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label=" "
+    className="closeButton"
+    onClick={[Function]}
+  >
+    ×
+  </button>
+</div>
+`;

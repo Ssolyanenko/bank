@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrimaryButton /> should make a snapshot 1`] = `
+<button
+  className="primaryBtn button medium"
+  disabled={false}
+  name="primaryButton"
+  onClick={[MockFunction]}
+  type="button"
+>
+  test
+</button>
+`;

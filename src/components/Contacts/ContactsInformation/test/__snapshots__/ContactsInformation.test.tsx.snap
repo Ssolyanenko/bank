@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactsInformation /> should make a snapshot of component 1`] = `
+<div
+  className="contactsFooter"
+>
+  <div
+    className="individual"
+  >
+    <h3
+      className="title"
+    >
+      For individuals
+    </h3>
+    <span
+      className="hidden"
+    >
+      Product advice, account and transaction information
+    </span>
+    <div
+      className="footerWrapper"
+    >
+      <ul
+        className="timeWork"
+      >
+        <li>
+          [object Object]
+        </li>
+      </ul>
+      <div
+        className="phone"
+      >
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="local"
+        >
+          <span
+            className="localText"
+          >
+            3700
+          </span>
+          <span
+            className="text"
+          >
+            UK free calls
+          </span>
+        </div>
+        <div
+          className="international"
+        >
+          <span
+            className="internationalText"
+          >
+            +16846540102
+          </span>
+          <span
+            className="text"
+          >
+            International calls
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="support"
+  >
+    <h3
+      className="title"
+    >
+      Cards support
+    </h3>
+    <span
+      className="hidden"
+    >
+      Activate or request a new card, credit card charges, report lost or stolen
+    </span>
+    <div
+      className="footerWrapper"
+    >
+      <ul
+        className="timeWork"
+      >
+        <li>
+          [object Object]
+        </li>
+      </ul>
+      <div
+        className="phone"
+      >
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="local"
+        >
+          <span
+            className="localText"
+          >
+            3800
+          </span>
+          <span
+            className="text"
+          >
+            UK free calls
+          </span>
+        </div>
+        <div
+          className="international"
+        >
+          <span
+            className="internationalText"
+          >
+            +16846540103
+          </span>
+          <span
+            className="text"
+          >
+            International calls
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ContactsInformation /> should make a snapshot of not footer component 1`] = `
+<div
+  className="contactsMain"
+>
+  <div
+    className="individual"
+  >
+    <h3
+      className="title"
+    >
+      For individuals
+    </h3>
+    <span
+      className="description"
+    >
+      Product advice, account and transaction information
+    </span>
+    <div
+      className="footerWrapper"
+    >
+      <ul
+        className="timeWork"
+      >
+        <li>
+          [object Object]
+        </li>
+      </ul>
+      <div
+        className="phone"
+      >
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="local"
+        >
+          <span
+            className="localText"
+          >
+            3700
+          </span>
+          <span
+            className="text"
+          >
+            UK free calls
+          </span>
+        </div>
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="international"
+        >
+          <span
+            className="internationalText"
+          >
+            +16846540102
+          </span>
+          <span
+            className="text"
+          >
+            International calls
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="support"
+  >
+    <h3
+      className="title"
+    >
+      Cards support
+    </h3>
+    <span
+      className="description"
+    >
+      Activate or request a new card, credit card charges, report lost or stolen
+    </span>
+    <div
+      className="footerWrapper"
+    >
+      <ul
+        className="timeWork"
+      >
+        <li>
+          [object Object]
+        </li>
+      </ul>
+      <div
+        className="phone"
+      >
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="local"
+        >
+          <span
+            className="localText"
+          >
+            3800
+          </span>
+          <span
+            className="text"
+          >
+            UK free calls
+          </span>
+        </div>
+        <PhoneIcon
+          className="phoneIcon"
+        />
+        <div
+          className="international"
+        >
+          <span
+            className="internationalText"
+          >
+            +16846540103
+          </span>
+          <span
+            className="text"
+          >
+            International calls
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

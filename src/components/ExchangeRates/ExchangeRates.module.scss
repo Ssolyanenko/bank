@@ -1,0 +1,35 @@
+@import 'src/styles/variables.module.scss';
+
+.main {
+  flex: 1 0 auto;
+
+  .backButtonContainer {
+    padding-top: 32px;
+    padding-left: 80px;
+  }
+
+  .mainContent {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    gap: 110px;
+    padding-left: 182px;
+
+    .contentContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .rates {
+      width: 440px;
+    }
+
+    .title {
+      font-weight: $bold;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      color: $grayDark_6;
+    }
+  }
+}

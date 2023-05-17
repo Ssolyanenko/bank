@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponseModal /> should make a snapshot of error modal 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="600px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="modalCloseButton"
+  >
+    <CloseButton
+      onClick={[MockFunction]}
+      size="medium"
+    />
+  </div>
+  <div
+    className="modalIcon"
+  >
+    <ExclamationMarkIcon />
+  </div>
+  <p
+    className="modalText"
+  >
+    Invalid phone number. Try again.
+  </p>
+</ModalConfirmation>
+`;
+
+exports[`<ResponseModal /> should make a snapshot of success modal 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="600px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="modalCloseButton"
+  >
+    <CloseButton
+      onClick={[MockFunction]}
+      size="medium"
+    />
+  </div>
+  <div
+    className="modalIcon"
+  >
+    <CheckmarkIcon />
+  </div>
+  <p
+    className="modalText"
+  >
+    Your card order is received.
+  </p>
+</ModalConfirmation>
+`;
+
+exports[`<ResponseModal /> should make shapshot of default modal 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="600px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="modalCloseButton"
+  >
+    <CloseButton
+      onClick={[MockFunction]}
+      size="medium"
+    />
+  </div>
+  <div
+    className="modalIcon"
+  >
+    <ExclamationMarkIcon />
+  </div>
+  <p
+    className="modalText"
+  >
+    Something went wrong. Please try again.
+  </p>
+</ModalConfirmation>
+`;

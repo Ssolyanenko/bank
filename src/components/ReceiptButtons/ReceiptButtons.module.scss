@@ -1,0 +1,27 @@
+@import 'src/styles/variables.module.scss';
+
+.buttonsList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 346px;
+  gap: 16px;
+
+  .buttonItem {
+    .button {
+      width: 150px;
+      height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 0.875rem;
+      font-weight: $normal;
+      color: $grayDark_6;
+      gap: 16px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+  }
+}

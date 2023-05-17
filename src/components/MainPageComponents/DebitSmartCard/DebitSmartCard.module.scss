@@ -1,0 +1,41 @@
+@import 'src/styles/variables.module.scss';
+
+.cardWrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 42px;
+  margin-left: 56px;
+
+  .buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 42px;
+  }
+
+  .cardInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 72px;
+    width: 799px;
+    margin-top: -7px;
+
+    .title {
+      font-weight: $bold;
+      font-size: 2rem;
+      color: $grayDark_6;
+    }
+  }
+}
+
+:global .MuiButtonBase-root.MuiCheckbox-root {
+  padding: 0;
+  margin-right: 8px;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

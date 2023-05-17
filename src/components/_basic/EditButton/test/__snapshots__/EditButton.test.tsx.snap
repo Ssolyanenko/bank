@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditButton /> should make a snapshot of component 1`] = `
+<button
+  className="editBtn  medium"
+  onClick={[MockFunction]}
+  type="button"
+>
+  <EditIcon
+    className="btn"
+    size="medium"
+  />
+</button>
+`;

@@ -1,0 +1,23 @@
+@import 'src/styles/variables.module.scss';
+
+.checkboxLabel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 12px -2px;
+  width: fit-content;
+
+  &:last-of-type {
+    margin-bottom: 62px;
+  }
+}
+
+.termsLink {
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.checkboxLabelError [data-testid='CheckBoxOutlineBlankIcon'] {
+  color: $error_4;
+}

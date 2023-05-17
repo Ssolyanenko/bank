@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyLoans /> should make a snapshot 1`] = `
+<div
+  className="myLoansWrapper"
+>
+  <h2
+    className="title"
+  >
+    My Loans
+  </h2>
+  <React.Fragment>
+    <div
+      className="myLoansTable"
+    >
+      <LoanItem
+        id={1}
+        loanTitle="Personal loan"
+        period={60}
+        totalSum="30,347.00"
+      />
+      <LoanItem
+        id={2}
+        loanTitle="Car loan"
+        period={120}
+        totalSum="25,745.00"
+      />
+      <LoanItem
+        id={3}
+        loanTitle="Wedding loan"
+        period={60}
+        totalSum="70,339.00"
+      />
+    </div>
+  </React.Fragment>
+</div>
+`;

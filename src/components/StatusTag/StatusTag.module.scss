@@ -1,0 +1,32 @@
+@import 'src/styles/variables.module.scss';
+
+.statusTag {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  border-radius: 20px;
+}
+
+.greenStatus {
+  color: $status_collected_text;
+  background-color: $transparent_10;
+}
+
+.yellowStatus {
+  color: $status_approved_text;
+  background-color: $brand_5;
+}
+
+.purpleStatus {
+  color: $status_underConsideration_text;
+  background-color: $transparent_12;
+}
+
+.blueStatus {
+  color: $status_ontheway_text;
+  background-color: $transparent_11;
+}
+
+.redStatus {
+  color: $error_3;
+  background-color: $transparent_9;
+}

@@ -1,0 +1,138 @@
+import i18next from 'i18n';
+
+export enum AuthenticationLoginActions {
+  LOGIN_REQUEST = 'LOGIN_REQUEST',
+  LOGIN_SUCCESS = 'LOGIN_SUCCESS',
+  LOGIN_UNREGISTERED = 'LOGIN_UNREGISTERED',
+  LOGIN_FAIL = 'LOGIN_FAIL',
+  SET_FIRST_LOGIN = 'SET_FIRST_LOGIN',
+}
+
+export enum AuthenticationLogoutActions {
+  LOGOUT_SUCCESS = 'LOGOUT_SUCCESS',
+  LOGOUT_REQUEST = 'LOGOUT_REQUEST',
+  LOGOUT_ERROR = 'LOGOUT_ERROR',
+}
+
+export enum PasswordRecoveryActions {
+  POST_PASSPORT_REQUEST = 'POST_PASSPORT_REQUEST',
+  POST_PASSPORT_SUCCESS = 'POST_PASSPORT_SUCCESS',
+  POST_PASSPORT_DATA_SUCCESS = 'POST_PASSPORT_DATA_SUCCESS',
+  POST_SMS_REQUEST = 'POST_SMS_REQUEST',
+  POST_SMS_SUCCESS = 'POST_SMS_SUCCESS',
+  POST_NEW_PASSWORD_SUCCESS = 'POST_NEW_PASSWORD_SUCCESS',
+  POST_SAVE_PHONE_USER = 'POST_SAVE_PHONE_USER',
+  POST_USER_DATA_REQUEST = 'POST_USER_DATA_REQUEST',
+  POST_USER_DATA_ERROR = 'POST_USER_DATA_ERROR',
+}
+
+export enum GetUser {
+  GET_USER_REQUEST = 'GET_USER_REQUEST',
+  GET_USER_SUCCESS = 'GET_USER_SUCCESS',
+  GET_USER_ERROR = 'GET_USER_ERROR',
+}
+
+export enum GetUserEmail {
+  GET_EMAIL_REQUEST = 'GET_EMAIL_REQUEST',
+  GET_EMAIL_SUCCESS = 'GET_EMAIL_SUCCESS',
+  GET_EMAIL_ERROR = 'GET_EMAIL_ERROR',
+}
+
+export enum PostUserEmail {
+  POST_EMAIL_REQUEST = 'POST_EMAIL_REQUEST',
+  POST_EMAIL_SUCCESS = 'POST_EMAIL_SUCCESS',
+  POST_EMAIL_ERROR = 'POST_EMAIL_ERROR',
+}
+
+export enum GetUserNotification {
+  GET_NOTIFICATION_REQUEST = 'GET_NOTIFICATION_REQUEST',
+  GET_NOTIFICATION_SUCCESS = 'GET_NOTIFICATION_SUCCESS',
+  GET_NOTIFICATION_ERROR = 'GET_NOTIFICATION_ERROR',
+}
+
+export enum PostUserNotification {
+  POST_NOTIFICATION_REQUEST = 'POST_NOTIFICATION_REQUEST',
+  POST_NOTIFICATION_SUCCESS = 'POST_NOTIFICATION_SUCCESS',
+  POST_NOTIFICATION_ERROR = 'POST_NOTIFICATION_ERROR',
+}
+
+export enum PostUserControlQuestion {
+  POST_CONTROL_QUESTION_REQUEST = 'POST_CONTROL_QUESTION_REQUEST',
+  POST_CONTROL_QUESTION_SUCCESS = 'POST_CONTROL_QUESTION_SUCCESS',
+  POST_CONTROL_QUESTION_ERROR = 'POST_CONTROL_QUESTION_ERROR',
+}
+
+export enum PostUserChangePassword {
+  POST_CHANGE_PASSWORD_REQUEST = 'POST_CHANGE_PASSWORD_REQUEST',
+  POST_CHANGE_PASSWORD_SUCCESS = 'POST_CHANGE_PASSWORD_SUCCESS',
+  POST_CHANGE_PASSWORD_ERROR = 'POST_CHANGE_PASSWORD_ERROR',
+}
+
+export enum AuthenticationSMSActions {
+  SET_SMS_REQUEST = 'SET_SMS_REQUEST',
+  SET_SMS_VALID = 'SET_SMS_SUCCESS',
+  SET_SMS_ERROR = 'SET_SMS_ERROR',
+  SET_SMS_FIRST_STEP_FAIL = 'SET_SMS_FIRST_STEP_FAIL',
+  SET_SMS_SECOND_STEP_FAIL = 'SET_SMS_SECOND_STEP_FAIL',
+  SET_SMS_LOGIN_BAN = 'SET_SMS_LOGIN_BAN',
+  SET_SMS_RESET_PASSPORT_BAN = 'SET_SMS_RESET_PASSPORT_BAN',
+  SET_NEW_SMS = 'SET_NEW_SMS',
+  SET_ACTUAL_TIME_BAN = 'SET_ACTUAL_TIME_BAN',
+}
+
+export enum PhoneNumberValidation {
+  PHONE_NUMBER_FIELD_REQUEST = 'PHONE_NUMBER_FIELD_REQUEST',
+  PHONE_NUMBER_FIELD_SUCCESS = 'PHONE_NUMBER_FIELD_SUCCESS',
+  PHONE_NUMBER_FIELD_ERROR = 'PHONE_NUMBER_FIELD_ERROR',
+}
+
+export enum CurrentPasswordValidation {
+  CURRENT_PASSWORD_FIELD_REQUEST = 'CURRENT_PASSWORD_FIELD_REQUEST',
+  CURRENT_PASSWORD_FIELD_SUCCESS = 'CURRENT_PASSWORD_FIELD_SUCCESS',
+  CURRENT_PASSWORD_FIELD_ERROR = 'CURRENT_PASSWORD_FIELD_ERROR',
+}
+
+export enum ExchangeRatesActions {
+  GET_RATES = 'GET_RATES',
+  SET_CONVERT = 'SET_CONVERT',
+  GET_RATES_ERROR = 'GET_RATES_ERROR',
+}
+
+export enum RequestCurrentUser {
+  CURRENT_USER_FETCH_SUCCESS = 'CURRENT_USER_FETCH_SUCCESS',
+  CURRENT_USER_FETCH_ERROR = 'CURRENT_USER_FETCH_ERROR',
+}
+
+export const ACCESS_GRANTED = i18next.t('user.accessGranted');
+export const RESPONSE_MESSAGE_PASSPORT = i18next.t('user.responseMessageReport');
+export const INVALID_PASSWORD = i18next.t('user.invalidPassword');
+export const RESPONSE_MESSAGE_SMS = i18next.t('user.responseMessageSMS');
+export const RESPONSE_MESSAGE_NEW_PASSWORD = i18next.t('user.responseMessageNewPassword');
+export const RESPONSE_MESSAGE_PASSPORT_ERROR = i18next.t('user.responseMessagePasswordError');
+export const SESSION_CODE_IS_CORRECT = i18next.t('user.sessionCodeIsCorrect');
+export const RESPONSE_MESSAGE_PASSPORT_ON_FIRST_LOGIN = i18next.t('user.responseMessagePassportOnFirstLogin');
+export const USER_UNREGISTERED = i18next.t('user.userUnregistered');
+export const SMS_SEND_AGAIN = i18next.t('user.smsSendAgain');
+export const SMS_NOT_VALID = i18next.t('user.smsNotValid');
+export const SMS_FOR_SESSION = 'SMS_FOR_SESSION';
+export const SMS_FOR_CHANGE_PASSWORD = 'SMS_FOR_CHANGE_PASSWORD';
+export const SMS_BAN_STATE = i18next.t('user.smsBanState');
+export const SMS_FAIL_FIRST = 1;
+export const SMS_FAIL_SECOND = 2;
+export const SMS_FAIL_THIRD = 3;
+export const BAN_STATE = 'banState';
+export const ACCESS_TOKEN = 'accessToken';
+export const FIRST_LOGIN = i18next.t('user.firstLogin');
+
+export const SMS_FAIL_FIRST_TEXT = i18next.t('user.smsFailFirstText');
+export const SMS_FAIL_SECOND_TEXT = i18next.t('user.smsFailSecondText');
+export const SMS_FAIL_THIRD_TEXT = i18next.t('user.smsFailTrirdText');
+
+export const PASSWORD_FAIL_FIRST_TEXT = i18next.t('user.passwordFailFirstText');
+export const PASSWORD_FAIL_SECOND_TEXT = i18next.t('user.passwordFailSecondText');
+export const PASSWORD_FAIL_THIRD_TEXT = i18next.t('user.passwordFailThirdText');
+export const PASSWORD_LOGIN_FAIL = i18next.t('user.passwordLoginFail');
+export const PASSWORD_RECOVERY_FAIL = i18next.t('user.passwordRecoveryFail');
+export const SMS_CODE_HAVE_SEND = i18next.t('user.smsCodeHaveSend');
+export const CODE_EXPIRATION_TIME = i18next.t('user.codeExpirationTime');
+export const PASSWORD_SHOULD_CONTAIN = i18next.t('user.passwordShouldContain');

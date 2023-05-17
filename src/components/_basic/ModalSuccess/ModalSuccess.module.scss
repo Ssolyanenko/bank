@@ -1,0 +1,24 @@
+@import 'src/styles/variables.module.scss';
+
+.successModalWrapper {
+  padding: 21px;
+  color: $grayDark_6;
+  line-height: 1.5;
+
+  .closeButton {
+    text-align: right;
+    margin-bottom: 5px;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 39px;
+    padding: 0 133px;
+  }
+
+  .contentText {
+    margin-top: 32px;
+  }
+}

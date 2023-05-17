@@ -1,0 +1,34 @@
+@import 'src/styles/variables.module.scss';
+
+.main {
+  margin-top: 26px;
+  flex: 1 0 auto;
+
+  .contacts {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .backButtonContainer {
+    position: absolute;
+    left: 80px;
+  }
+
+  .mainText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: $bold;
+    font-size: 1.5rem;
+  }
+
+  .infoNotice {
+    margin: 56px 0;
+    text-align: center;
+    .infoNoticeBackground {
+      background: $grayLight_5;
+      padding: 8px;
+    }
+  }
+}

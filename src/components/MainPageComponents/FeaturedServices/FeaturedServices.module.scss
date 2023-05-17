@@ -1,0 +1,66 @@
+@import 'src/styles/variables.module.scss';
+
+.featuredServices {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+
+  .service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    cursor: pointer;
+
+    .iconContainer {
+      width: 96px;
+      height: 96px;
+      border: 4px solid $brand_4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      margin-bottom: 16px;
+
+      .icon {
+        width: 32px;
+        height: 32px;
+        fill: $grayDark_8;
+      }
+    }
+
+    .text {
+      font-weight: $normal;
+      font-size: 16px;
+      width: max-content;
+    }
+
+    .add {
+      width: 96px;
+      height: 96px;
+      border: 4px dashed $brand_4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      margin-bottom: 16px;
+      color: $grayDark_8;
+      font-size: 32px;
+    }
+  }
+}
+
+.pendingModalText {
+  text-align: center;
+
+  &:first-child {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+}
+
+.services::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}

@@ -1,0 +1,12 @@
+.myCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  width: 100%;
+  margin-left: 200px;
+  overflow: auto;
+
+  .pageTitle {
+    font-size: 2rem;
+  }
+}

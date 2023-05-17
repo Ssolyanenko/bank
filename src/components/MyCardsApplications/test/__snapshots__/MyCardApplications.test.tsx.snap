@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyCardApplications /> should make a snapshot with Card Applications 1`] = `
+<div
+  className="wrapper"
+>
+  <h2
+    className="pageTitle"
+  >
+    My card applications
+  </h2>
+  <ul
+    className="cardApplicationsList"
+  >
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Express delivery by courier
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Smart Debit card
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          02.08.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={1}
+        status="Finalized"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Parcel by mail
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Debit Travel card
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          12.10.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={2}
+        status="Approved"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Express delivery by courier
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Smart Debit card
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          09.11.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={3}
+        status="On the way"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Pick up at the bank
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Credit Card Billable Premium
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          05.09.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={4}
+        status="Rejected"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Parcel by mail
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Credit Card Billable
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          10.07.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={5}
+        status="Ready for pick up"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Pick up at the bank
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Credit Card Billable Premium
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          05.09.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={6}
+        status="Under consideration"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Parcel by mail
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Credit Card Billable Premium
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          05.09.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={7}
+        status="Ready for pick up"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Express delivery by courier
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Smart Debit card
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          09.11.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={8}
+        status="Collected"
+      />
+    </li>
+    <li
+      className="cardApplication"
+    >
+      <div
+        className="applicationInfo fixedWidth"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Pick up at the bank
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          Credit Card Billable Premium
+        </span>
+      </div>
+      <div
+        className="applicationInfo textAlignCenter"
+      >
+        <span
+          className="applicationMethod"
+        >
+          Submission date
+          :
+        </span>
+        <span
+          className="applicationCardType"
+        >
+          05.09.2022
+        </span>
+      </div>
+      <ApplicationStatus
+        cardId={9}
+        status="Under consideration"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<MyCardApplications /> should make a snapshot without Card Applications 1`] = `
+<div
+  className="wrapper"
+>
+  <h2
+    className="pageTitle"
+  >
+    My card applications
+  </h2>
+  <InformationBlock>
+    You don't have any cards applications. You may check our Card Products and order a card online
+  </InformationBlock>
+</div>
+`;

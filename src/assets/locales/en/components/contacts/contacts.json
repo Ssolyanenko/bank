@@ -1,0 +1,14 @@
+{
+  "contacts": {
+    "title": "Contact center phones",
+    "infoNotice": "Please note, all calls to the contact center are recorded to ensure quality of service",
+    "individual": {
+      "name": "For individuals",
+      "description": "Product advice, account and transaction information"
+    },
+    "support": {
+      "name": "Cards support",
+      "description": "Activate or request a new card, credit card charges, report lost or stolen"
+    }
+  }
+}

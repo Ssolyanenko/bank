@@ -1,0 +1,6 @@
+{
+  "transactionLimit": {
+    "title": "Change transaction limit",
+    "policy": "I understand that increasing the standard transaction limit violates the rules of safe use of the card and may result in unauthorized transactions."
+  }
+}

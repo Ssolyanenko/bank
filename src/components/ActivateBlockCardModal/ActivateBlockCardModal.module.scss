@@ -1,0 +1,69 @@
+@import 'src/styles/variables.module.scss';
+
+.lockCardModalWrapper {
+  max-width: 600px;
+  width: 100%;
+  padding: 21px;
+  color: $grayDark_6;
+  line-height: 1.5;
+
+  .closeButton {
+    text-align: right;
+    margin-bottom: 5px;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 64px;
+    margin-bottom: 35px;
+
+    .contentText {
+      width: 100%;
+
+      & .textAgreed {
+        font-size: 0.875rem;
+        line-height: 1.2;
+        color: $grayDark_6;
+        margin: 8px 0 0 14px;
+        background-color: $grayLight_5;
+        padding: 16px 24px;
+
+        & .titleInner {
+          font-weight: $bold;
+          line-height: 0.875rem;
+          color: $grayDark_6;
+          margin-bottom: 16px;
+        }
+      }
+
+      &.unlock {
+        padding: 0 48px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 3;
+    margin-bottom: 8px;
+    font-weight: $bold;
+  }
+
+  .controlButton {
+    display: inline-block;
+    text-transform: capitalize;
+    width: 145px;
+    height: 50px;
+    font-size: 0.875rem;
+    font-weight: $bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}

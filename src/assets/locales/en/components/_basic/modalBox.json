@@ -1,0 +1,8 @@
+{
+  "modalBox": {
+    "codeExpirationTime": "Code expiration time",
+    "seconds": "seconds",
+    "didNotGetTheCode": "Didn’t get the code?",
+    "sendCodeAgain": "Send code again in"
+  }
+}

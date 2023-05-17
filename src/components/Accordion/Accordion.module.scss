@@ -1,0 +1,51 @@
+@import 'src/styles/variables.module.scss';
+
+.accordionList {
+  width: 100%;
+
+  .accordionListItem {
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .accordion {
+    border: 1px solid $grayLight_5;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  .accordionSummary {
+    padding-right: 32px;
+    transition: all 0.3s ease-in-out;
+
+    // necessary to override MUI default styles
+    & > div {
+      margin: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $brand_5;
+    }
+
+    &:active {
+      background-color: $brand_4;
+    }
+  }
+
+  .expanded {
+    background-color: $brand_4;
+
+    &:hover {
+      background-color: $brand_4;
+    }
+  }
+}
+
+.storybookWrapper {
+  width: 700px;
+  margin: 0 auto;
+}

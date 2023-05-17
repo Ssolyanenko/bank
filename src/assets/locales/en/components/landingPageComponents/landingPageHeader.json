@@ -1,0 +1,11 @@
+{
+  "landingPageHeader": {
+    "appLogo": "AMN Banking",
+    "links": {
+      "branches": "ATMs and Branches",
+      "currencyRate": "Exchange rates",
+      "contacts": "Contacts"
+    },
+    "logOut": "Log out"
+  }
+}

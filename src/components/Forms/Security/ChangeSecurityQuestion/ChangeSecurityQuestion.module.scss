@@ -1,0 +1,86 @@
+@import 'src/styles/variables.module.scss';
+
+.ChangeSecurityInput {
+  margin-bottom: 32px;
+  width: 343px;
+
+  .helperText {
+    color: $brand_10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .counterText {
+      font-weight: $normal;
+      font-size: 0.75rem;
+      margin-top: 8px;
+    }
+
+    .errorColor {
+      color: $error_3;
+    }
+
+    .text {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.inputContainer {
+  display: flex;
+  width: 100%;
+}
+
+.inputNewQuestion {
+  margin-bottom: 30px;
+}
+
+.ownQuestionInput {
+  margin-bottom: 58px;
+  margin-right: 48px;
+}
+
+.buttons {
+  width: 318px;
+  display: flex;
+  gap: 32px;
+
+  .button {
+    width: 143px;
+    height: 48px;
+
+    &:disabled {
+      color: $grayDark_7;
+      background-color: $brand_4;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.modalText {
+  align-self: center;
+  padding: 32px 0 40px;
+}
+
+.modalIcon {
+  align-self: center;
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+}
+
+.header {
+  margin-bottom: 36px;
+
+  .headerText {
+    font-weight: $normal;
+    font-size: 0.875rem;
+  }
+}
+
+.error {
+  color: $error_3;
+  margin: 8px 0 0;
+  font-size: 0.875rem;
+}

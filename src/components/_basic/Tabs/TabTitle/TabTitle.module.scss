@@ -1,0 +1,21 @@
+@import 'src/styles/variables.module.scss';
+
+.tabTitle {
+  width: 172px;
+  height: 48px;
+  background-color: $white_1;
+  border: none;
+  font-weight: $normal;
+  font-size: 1rem;
+
+  &.active {
+    font-weight: $bold;
+    border-bottom: 2px solid $orange;
+  }
+
+  &:hover {
+    font-weight: $bold;
+    border-bottom: 2px solid $orange;
+    cursor: pointer;
+  }
+}

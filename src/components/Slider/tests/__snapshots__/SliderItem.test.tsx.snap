@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SliderItem /> should make a snapshot 1`] = `
+<div
+  className="sliderItem"
+>
+  <img
+    alt="images/landingBack.png"
+    src="images/landingBack.png"
+  />
+</div>
+`;

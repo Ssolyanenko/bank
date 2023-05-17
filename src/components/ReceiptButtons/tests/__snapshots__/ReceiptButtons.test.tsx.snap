@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReceiptButtons /> component renders without error 1`] = `
+<ul
+  className="buttonsList"
+>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="button"
+    >
+      <VisibilityIcon />
+      Show receipt
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="button"
+    >
+      <DownloadIcon />
+      Download receipt
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="button"
+    >
+      <MailIcon />
+      Send to email
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <ShareIcon />
+      Share receipt
+    </Button>
+  </li>
+</ul>
+`;

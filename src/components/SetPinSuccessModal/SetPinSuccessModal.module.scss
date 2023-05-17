@@ -1,0 +1,38 @@
+@import 'src/styles/variables.module.scss';
+
+.pinCodeSuccessModal {
+  width: 603px;
+  padding: 16px;
+  text-align: center;
+
+  .closeButton {
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-bottom: 32px;
+  }
+
+  .modalTextWrapper {
+    margin-bottom: 24px;
+    line-height: 1.5;
+
+    .textItem {
+      margin: 0;
+    }
+
+    .hasRedirectButton {
+      margin-bottom: 32px;
+    }
+  }
+
+  .redirectButton {
+    margin: 0 0 44px 0;
+    display: inline;
+  }
+}

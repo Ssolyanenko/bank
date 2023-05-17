@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Block /> should match the snapshot of the component 1`] = `
+<div
+  className="mainPage"
+>
+  <h2
+    className="title"
+  >
+    Title
+  </h2>
+  <div
+    className="body"
+  >
+    <p />
+  </div>
+</div>
+`;

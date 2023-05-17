@@ -1,0 +1,36 @@
+@import 'src/styles/variables.module.scss';
+
+.modalContentWrapper {
+  width: 600px;
+  padding: 21px;
+  text-align: center;
+  color: $grayDark_6;
+
+  .closeButton {
+    text-align: right;
+    stroke: $grayDark_6;
+    margin-bottom: 5px;
+  }
+
+  .textWrapper {
+    width: 100%;
+    max-width: 410px;
+    margin: 32px auto;
+    line-height: 1.5;
+  }
+
+  .buttonsWrapper {
+    margin: 0 auto 40px;
+
+    .button {
+      display: inline-block;
+      min-height: 48px;
+      margin: 0;
+      font-size: 0.875rem;
+
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+}

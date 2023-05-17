@@ -1,0 +1,65 @@
+@import 'src/styles/variables.module.scss';
+
+.form {
+  background-color: $white_1;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: $normal;
+  height: auto;
+
+  & .formInputSms {
+    width: 343px;
+    height: max-content;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: $normal;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    & .titleInfo {
+      color: $grayDark_6;
+      margin-bottom: 24px;
+    }
+
+    & .errorMargin {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    & .timerInformation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 24px 0;
+      font-size: 0.875rem;
+
+      & .timer {
+        font-weight: $bold;
+        color: $grayDark_6;
+        font-size: inherit;
+      }
+
+      & .timerExpired {
+        font-weight: $normal;
+        color: $error_3;
+      }
+
+      & .sendAgain {
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: $bold;
+        color: $grayDark_6;
+        background: transparent;
+        border-color: transparent;
+      }
+    }
+
+    & .error {
+      font-size: 0.875rem;
+      color: $error_3;
+      margin-left: 14px;
+    }
+  }
+}

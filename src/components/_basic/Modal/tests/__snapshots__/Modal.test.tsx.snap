@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should make a snapshot 1`] = `
+<ForwardRef(Modal)
+  aria-describedby="aria-labeldescribedby"
+  aria-labelledby=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <ForwardRef(Box)
+    className="modalWrapper"
+  >
+    <div>
+      Child
+    </div>
+  </ForwardRef(Box)>
+</ForwardRef(Modal)>
+`;

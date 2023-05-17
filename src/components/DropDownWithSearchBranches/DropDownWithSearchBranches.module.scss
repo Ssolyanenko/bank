@@ -1,0 +1,17 @@
+@import 'src/styles/variables.module.scss';
+
+.menuItem:nth-child(1n) {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  min-height: 56px;
+  padding: 16px 16px;
+
+  &:hover {
+    background-color: $brand_4;
+  }
+}
+
+.storybookWrapper {
+  width: 300px;
+}

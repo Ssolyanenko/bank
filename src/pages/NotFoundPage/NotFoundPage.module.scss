@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .content {
+    width: 381px;
+    margin-right: 58px;
+
+    .title {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+
+    .message {
+      margin-top: 12px;
+    }
+
+    .image {
+      width: 687px;
+      height: 427px;
+    }
+  }
+}

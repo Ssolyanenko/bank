@@ -1,0 +1,15 @@
+.sliderItem {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100vh;
+    min-height: 726px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+}

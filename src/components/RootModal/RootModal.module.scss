@@ -1,0 +1,30 @@
+@import 'src/styles/variables.module.scss';
+
+.popup {
+  position: absolute;
+  width: 853px;
+  height: max-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: $white_1;
+  border-radius: 8px;
+
+  & .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & .title {
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: 32px;
+    margin-top: 19px;
+    color: $grayDark_6;
+  }
+}

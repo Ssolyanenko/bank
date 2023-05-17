@@ -1,0 +1,128 @@
+@import 'src/styles/variables.module.scss';
+
+.highlight {
+  background-color: $orange;
+}
+
+.searchBar {
+  position: absolute;
+  top: 104px;
+  width: 430px;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  z-index: 4;
+
+  .textHover {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    left: 356px;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+
+    .point {
+      background-color: $orange;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+
+  .closeButton {
+    margin-left: 12px;
+    margin-right: 32px;
+    cursor: pointer;
+
+    &:hover + .textHover {
+      visibility: visible;
+    }
+  }
+
+  .filter {
+    cursor: pointer;
+  }
+}
+
+.currentBranch,
+.branchesFilter {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 32px;
+  display: block;
+  height: calc(100vh - 280px);
+  width: 364px;
+  z-index: 2;
+  border: 0.4px solid $grayLight_5;
+  background-color: $white_1;
+}
+
+.currentBranchIndent {
+  margin-top: 180px;
+}
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  width: 428px;
+  height: calc(100vh - 72px);
+  left: 0px;
+  top: 72px;
+  background: $white_1;
+  box-shadow: 2px 0px 8px $transparent_6;
+  transition: ease 0.2s;
+  transform: translateX(-100%);
+  z-index: 1;
+
+  &.open {
+    transform: translateX(0);
+  }
+
+  .navigation {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 32px;
+
+    .branches {
+      margin-top: 24px;
+      font-size: 20px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: $grayDark_6;
+      margin-bottom: 20px;
+
+      .cityInform {
+        font-size: 20px;
+        color: $orange;
+        border: none;
+        background-color: $white_1;
+        border-bottom: 1px dashed $orange;
+        transform: translateY(1px);
+        cursor: pointer;
+      }
+    }
+
+    .filterButton {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+
+      > div {
+        margin-bottom: 12px;
+        margin-right: 11px;
+      }
+    }
+
+    .filterText {
+      margin-bottom: 16px;
+      color: $grayDark_7;
+      display: inline-block;
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+}

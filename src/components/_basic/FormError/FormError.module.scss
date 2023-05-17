@@ -1,0 +1,11 @@
+@import 'src/styles/variables.module.scss';
+
+.error {
+  color: $error_3;
+  margin: 8px 0 0 14px;
+  font-size: 0.875rem;
+}
+
+.storybookWrapper {
+  width: 300px;
+}

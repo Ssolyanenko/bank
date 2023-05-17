@@ -1,0 +1,66 @@
+@import 'src/styles/variables.module.scss';
+
+.cardOrderForm {
+  max-width: 735px;
+  width: 100%;
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: $bold;
+    margin-bottom: 48px;
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 36px;
+
+    .label {
+      max-width: 345px;
+      width: 100%;
+      color: $grayDark_7;
+      font-size: 0.875rem;
+      line-height: 1.42;
+    }
+  }
+
+  .submitButtonContainer {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .submitButton {
+    padding: 20px 152px;
+
+    &:disabled {
+      color: $grayDark_7;
+      background-color: $brand_4;
+      cursor: not-allowed;
+    }
+  }
+
+  .submitButtonCover {
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    cursor: not-allowed;
+  }
+
+  .error {
+    color: $error_3;
+    margin: 8px 0 0;
+    font-size: 0.875rem;
+  }
+
+  .allFieldsError {
+    text-align: center;
+    margin: 12px 0 0 0;
+  }
+
+  .checkboxError {
+    margin-left: 2px;
+  }
+}

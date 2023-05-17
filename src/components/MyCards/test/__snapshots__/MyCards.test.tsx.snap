@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyCards /> should make a snapshot 1`] = `
+<MemoryRouter>
+  <MyCards
+    myCardsList={
+      [
+        {
+          "amount": 1000000,
+          "cardExpirationDate": "08/29",
+          "cardNumber": "1928192837465919",
+          "cardProductName": "Smart Debit card",
+          "cardType": "debitSmart",
+          "currency": "GBP",
+          "cvv": "111",
+          "formattedAmount": "100,000.00 GBP",
+          "id": 1,
+          "isActive": true,
+          "paymentSystem": "MASTERCARD",
+          "transactionLimit": 5000,
+        },
+        {
+          "amount": 1000000,
+          "cardExpirationDate": "08/29",
+          "cardNumber": "1928192837465915",
+          "cardProductName": "Smart Debit card",
+          "cardType": "debitSmart",
+          "currency": "GBP",
+          "cvv": "111",
+          "formattedAmount": "100,000.00 GBP",
+          "id": 2,
+          "isActive": true,
+          "paymentSystem": "MASTERCARD",
+          "transactionLimit": 5000,
+        },
+      ]
+    }
+  />
+</MemoryRouter>
+`;

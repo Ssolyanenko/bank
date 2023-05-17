@@ -1,0 +1,14 @@
+export const ONE = 1;
+export const THREE = 3;
+export const INITIAL_VALUE_ANSWER = 0;
+export const MIN_VALUE_AMOUNT_RANGE = 0;
+export const MIN_LENGTH_SECURITY_QUESTION = 5;
+export const MAX_WIDTH = '600px';
+export const TIMER_CVV = 5_000;
+export const MAX_WIDTH_TRANSFER_MODAL = '603px';
+export const MIN_AMOUNT = 1;
+export const MAX_CARD_LIMIT_SYMBOLS = 7;
+export const CARD_LIMIT_TO_ADD_ZEROS = 6;
+export const START_STEP_VALUE = 0;
+export const FINAL_STEP_VALUE = 3;
+export const TRANSACTIONS_DEBOUNCE_DELAY = 1_000;

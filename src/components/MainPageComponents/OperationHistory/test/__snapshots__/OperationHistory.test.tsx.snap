@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OperationHistory /> should make a snapshot 1`] = `
+<div
+  className="operationHistory"
+>
+  <div
+    className="operationContainer"
+  >
+    <div
+      className="operations"
+    >
+      <div
+        className="operation"
+      >
+        <div
+          className="dateContainer"
+        >
+          <span
+            className="date"
+          >
+            April 26
+          </span>
+          <span
+            className="time"
+          >
+            18:05
+          </span>
+        </div>
+        <div
+          className="iconContainer"
+        >
+          <div>
+            <CardTemplateIcon
+              className="icon"
+            />
+          </div>
+        </div>
+        <div
+          className="descriptionContainer"
+        >
+          <span
+            className="description"
+          >
+            Transfer to card
+          </span>
+          <span
+            className="descriptionText"
+          >
+            *7082 Cameron Williamson
+          </span>
+        </div>
+        <div
+          className="amount"
+        >
+          -37.85
+          <span
+            className="rate"
+          >
+            GBP
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="operations"
+    >
+      <div
+        className="operation"
+      >
+        <div
+          className="dateContainer"
+        >
+          <span
+            className="date"
+          >
+            April 24
+          </span>
+          <span
+            className="time"
+          >
+            19:16
+          </span>
+        </div>
+        <div
+          className="iconContainer"
+        >
+          <div>
+            <CardTemplateIcon
+              className="icon"
+            />
+          </div>
+        </div>
+        <div
+          className="descriptionContainer"
+        >
+          <span
+            className="description"
+          >
+            Transfer to card
+          </span>
+          <span
+            className="descriptionText"
+          >
+            *8601 Savannah Nguyen
+          </span>
+        </div>
+        <div
+          className="amount"
+        >
+          -32.26
+          <span
+            className="rate"
+          >
+            GBP
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="operations"
+    >
+      <div
+        className="operation"
+      >
+        <div
+          className="dateContainer"
+        >
+          <span
+            className="date"
+          >
+            April 26
+          </span>
+          <span
+            className="time"
+          >
+            18:05
+          </span>
+        </div>
+        <div
+          className="iconContainer"
+        >
+          <div>
+            <PhoneIcon
+              className="icon"
+            />
+          </div>
+        </div>
+        <div
+          className="descriptionContainer"
+        >
+          <span
+            className="description"
+          >
+            Transfer to card
+          </span>
+          <span
+            className="descriptionText"
+          >
+            *7082 Cameron Williamson
+          </span>
+        </div>
+        <div
+          className="amount"
+        >
+          -37.85
+          <span
+            className="rate"
+          >
+            GBP
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

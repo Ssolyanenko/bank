@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturedServices /> should make a snapshot 1`] = `
+<React.Fragment>
+  <ul
+    className="featuredServices"
+  >
+    <li
+      className="service"
+    >
+      <div
+        className="iconContainer"
+      >
+        <PhoneIcon
+          className="icon"
+          color="grayDark_8"
+        />
+      </div>
+      <div
+        className="text"
+      >
+        Phone recharge
+      </div>
+    </li>
+    <li
+      className="service"
+    >
+      <div
+        className="iconContainer"
+      >
+        <TransferToCardIcon
+          className="icon"
+          color="grayDark_8"
+        />
+      </div>
+      <div
+        className="text"
+      >
+        Transfer to card
+      </div>
+    </li>
+    <li
+      className="service"
+    >
+      <div
+        className="iconContainer"
+      >
+        <UtilitiesIcon
+          className="icon"
+          color="grayDark_8"
+        />
+      </div>
+      <div
+        className="text"
+      >
+        Utilities
+      </div>
+    </li>
+    <li
+      className="service"
+    >
+      <div
+        className="iconContainer"
+      >
+        <CurrencyExchangeIcon
+          className="icon"
+          color="grayDark_8"
+        />
+      </div>
+      <div
+        className="text"
+      >
+        Currency exchange
+      </div>
+    </li>
+    <li
+      className="service"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <span
+        className="add"
+      >
+        +
+      </span>
+      <span
+        className="text"
+      >
+        featuredServices.add
+      </span>
+    </li>
+  </ul>
+  <ResponseModal
+    content={
+      <React.Fragment>
+        <p
+          className="pendingModalText"
+        >
+          Something exciting is coming soon!
+        </p>
+        <p
+          className="pendingModalText"
+        >
+          Stay tuned to learn about the new goodies first.
+        </p>
+      </React.Fragment>
+    }
+    isOpened={false}
+    modalCloseHandler={[Function]}
+    status="pending"
+  />
+</React.Fragment>
+`;

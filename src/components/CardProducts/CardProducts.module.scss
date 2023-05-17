@@ -1,0 +1,29 @@
+@import 'src/styles/variables.module.scss';
+
+.debitCardsWrapper {
+  margin-left: 170px;
+  margin-top: -6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 72px;
+  width: 799px;
+  height: 608px;
+
+  .title {
+    font-weight: $bold;
+    font-size: 2rem;
+    color: $grayDark_6;
+  }
+
+  .cardBlockWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+
+    .cardBlock {
+      list-style-type: none;
+    }
+  }
+}

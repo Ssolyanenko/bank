@@ -1,0 +1,16 @@
+@import 'src/styles/variables.module.scss';
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+
+  .checkBox {
+    color: $grayDark_7;
+  }
+
+  [data-testid='CheckBoxIcon'],
+  [data-testid='RadioButtonCheckedIcon'] {
+    color: $orange;
+    border-color: $orange;
+  }
+}

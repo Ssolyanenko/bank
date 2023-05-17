@@ -1,0 +1,15 @@
+{
+  "activateBlockCardContent": {
+    "blocked": {
+      "text": "Are you sure you want to block your card?",
+      "buttonName": "Yes, block it",
+      "terms": "Blocking the card will restrict all and any operations with it, but all card-related service fees will still be charged."
+    },
+    "activate": {
+      "text": "Are you sure you want to activate your card?",
+      "buttonName": "Yes, activate it",
+      "terms": "If you activate the card, you will be able to use it for all kinds of transactions again. Reactivation is free of charge, all card-related service fees will remain the same. Would you like to activate your card?"
+    },
+    "status": "Change card status"
+  }
+}

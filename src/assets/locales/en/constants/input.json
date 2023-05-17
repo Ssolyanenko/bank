@@ -1,0 +1,14 @@
+{
+  "input": {
+    "labels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "IDNumber": "ID number",
+      "phone": "Phone number",
+      "email": "Email",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "smsCode": "4-digit session key"
+    }
+  }
+}

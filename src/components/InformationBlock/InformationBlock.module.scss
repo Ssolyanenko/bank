@@ -1,0 +1,14 @@
+@import 'src/styles/variables.module.scss';
+
+.blockWrapper {
+  padding: 1rem 2rem;
+  background-color: $grayLight_5;
+  text-align: center;
+
+  .blockText {
+    font-weight: $normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $grayDark_6;
+  }
+}

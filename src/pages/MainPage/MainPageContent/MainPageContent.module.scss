@@ -1,0 +1,54 @@
+@import 'src/styles/variables.module.scss';
+
+.mainWrapper {
+  max-width: 1090px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  .firstContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+
+    .wrapperCardsAndHistory {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      .cards {
+        max-width: 660px;
+      }
+
+      .operationHistory {
+        width: 660px;
+        margin-top: 18px;
+      }
+    }
+
+    .exchangeRates {
+      width: 21rem;
+      border: 1px solid $grayLight_5;
+      border-radius: 8px;
+
+      .titles {
+        height: 64px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 32px;
+        font-weight: $bold;
+        font-size: 16px;
+        line-height: 16px;
+        background: $grayLight_7;
+      }
+
+      .ratesWrapper {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 1.5rem;
+      }
+    }
+  }
+}

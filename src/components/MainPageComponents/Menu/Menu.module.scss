@@ -1,0 +1,61 @@
+@import 'src/styles/variables.module.scss';
+
+.services {
+  min-width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+  .service {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+    .iconContainer {
+      width: 56px;
+      height: 56px;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      margin-right: 32px;
+
+      &.active {
+        background: $orange;
+
+        > .icon {
+          fill: $white_1;
+        }
+      }
+
+      &:not(.active):hover {
+        background: $brand_4;
+
+        > .icon {
+          fill: $white_1;
+        }
+      }
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        fill: $grayDark_8;
+      }
+    }
+
+    .text {
+      font-weight: $normal;
+      font-size: 16px;
+      color: $grayDark_8;
+
+      &.activeText {
+        color: $grayDark_6;
+      }
+    }
+  }
+}

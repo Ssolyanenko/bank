@@ -1,0 +1,9 @@
+{
+  "stepForm": {
+    "stepTitles": {
+      "enterID": "Enter ID no.",
+      "enterSMSCode": "Enter SMS-code",
+      "createPassword": "Create a password"
+    }
+  }
+}

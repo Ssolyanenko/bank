@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatButton /> should make a snapshot of component 1`] = `
+<button
+  name=""
+  onClick={[Function]}
+  type="button"
+>
+  <ChatIcon
+    className="chatButton"
+  />
+</button>
+`;

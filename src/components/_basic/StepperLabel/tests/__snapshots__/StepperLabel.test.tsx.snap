@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StepperLabel /> should make a snapshot of component 1`] = `
+<div
+  className="step"
+>
+  <div
+    className="circle "
+  />
+  <div
+    className="connector "
+  />
+</div>
+`;

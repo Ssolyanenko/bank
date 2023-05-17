@@ -1,0 +1,25 @@
+import i18next from 'i18n';
+
+export const ERROR_MESSAGE = {
+  required: i18next.t('errors.required'),
+  terms: i18next.t('errors.terms'),
+  invalid: (name?: string): string => i18next.t('errors.invalid', { name }),
+  min: (min: number): string => i18next.t('errors.min', { min }),
+  max: (max: number): string => i18next.t('errors.max', { max }),
+  minCardAmount: (min: number): string => i18next.t('errors.minCardAmount', { min }),
+  maxAmount: (max: number): string => i18next.t('errors.maxAmount', { max }),
+  limitChanges: i18next.t('errors.limitChanges'),
+  allFields: i18next.t('errors.allFields'),
+  somethingWentWrong: i18next.t('errors.somethingWentWrong'),
+  doesNotMatch: i18next.t('errors.doesNotMatch'),
+  noBanksFound: i18next.t('errors.noBanksFound'),
+  onlyDigits: i18next.t('errors.onlyDigits'),
+  invalidCommas: i18next.t('errors.invalidCommas'),
+  minCategories: i18next.t('errors.minCategories'),
+  maxCategories: i18next.t('errors.maxCategories'),
+  chooseCard: i18next.t('errors.chooseCard'),
+  minAmount: i18next.t('errors.minAmount'),
+  minEmail: i18next.t('errors.minEmail'),
+  maxEmail: (max: number): string => i18next.t('errors.maxEmail', { max }),
+  passwordValidation: i18next.t('errors.passwordValidation'),
+};

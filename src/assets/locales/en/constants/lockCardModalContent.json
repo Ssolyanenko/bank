@@ -1,0 +1,14 @@
+{
+  "lockCardModalContent": {
+    "blocked": {
+      "title": "Please confirm you want to block the card",
+      "text": "All card transactions will be blocked. Fees will be charged at the same rate.",
+      "buttonName": "block"
+    },
+    "unlocked": {
+      "title": "Please confirm you want to unlock the card",
+      "text": "All card transactions will be unlocked.",
+      "buttonName": "unlock"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import 'src/styles/variables.module.scss';
+
+.formWrapper {
+  padding: 40px 20px 56px;
+
+  .row {
+    margin-bottom: 36px;
+    width: 100%;
+  }
+
+  .inputsWrapper,
+  .inputErrors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .error,
+  .inputLabel {
+    display: block;
+    max-width: 345px;
+    width: 100%;
+  }
+
+  .icon {
+    transform: rotate(-90deg);
+  }
+
+  .buttonWrapper {
+    display: flex;
+    margin-top: 48px;
+
+    .button {
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
+    }
+  }
+}

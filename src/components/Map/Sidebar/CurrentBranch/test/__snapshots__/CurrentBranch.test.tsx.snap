@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrentBranch /> should make a snapshot 1`] = `
+<div
+  className="branch"
+>
+  <div
+    className="branchInform"
+  >
+    <BranchContainer
+      branch={
+        {
+          "address": "2 Warple Way",
+          "cashWithDrawal": true,
+          "city": "London",
+          "consultation": false,
+          "currencyExchange": false,
+          "exoticCurrencyExchange": false,
+          "id": 1,
+          "insurance": false,
+          "latitude": 51.5498969,
+          "longitude": -0.1535568,
+          "moneyTransfer": true,
+          "number": 11,
+          "operationModes": [
+            {
+              "closingTime": "00:00Z",
+              "dayOfWeek": "MONDAY",
+              "openingTime": "00:00Z",
+            },
+          ],
+          "pandus": false,
+          "payment": true,
+          "topUp": true,
+          "topUpWithoutCard": true,
+          "type": "ATM",
+        }
+      }
+      distance="100m"
+      selectBranch={[MockFunction]}
+    />
+    <div
+      className="work"
+    >
+      <span
+        className="text"
+      >
+        Working hours
+      </span>
+      <div
+        className="weekDay"
+      >
+        <button
+          className="buttonDay"
+          id="Monday"
+          onClick={[Function]}
+        >
+          Mon
+        </button>
+        <button
+          className="buttonDay"
+          id="Tuesday"
+          onClick={[Function]}
+        >
+          Tue
+        </button>
+        <button
+          className="buttonDay"
+          id="Wednesday"
+          onClick={[Function]}
+        >
+          Wed
+        </button>
+        <button
+          className="buttonDay"
+          id="Thursday"
+          onClick={[Function]}
+        >
+          Thu
+        </button>
+        <button
+          className="buttonDay"
+          id="Friday"
+          onClick={[Function]}
+        >
+          Fri
+        </button>
+        <button
+          className="buttonDay"
+          id="Saturday"
+          onClick={[Function]}
+        >
+          Sat
+        </button>
+        <button
+          className="buttonDay"
+          id="Sunday"
+          onClick={[Function]}
+        >
+          Sun
+        </button>
+      </div>
+      <div
+        className="workingHour"
+      >
+        <OpenNowIcon
+          className="icon"
+        />
+        24/7
+      </div>
+    </div>
+    <div
+      className="services"
+    >
+      <span
+        className="text"
+      >
+        Main services
+      </span>
+      <div
+        className="service"
+      >
+        <span
+          className="operation"
+        >
+          <GetIcon />
+        </span>
+        <span>
+          CashWithDrawal
+        </span>
+      </div>
+      <div
+        className="service"
+      >
+        <span
+          className="operation"
+        >
+          <TransferIcon />
+        </span>
+        <span>
+          MoneyTransfer
+        </span>
+      </div>
+      <div
+        className="service"
+      >
+        <span
+          className="operation"
+        >
+          <TopOnIcon />
+        </span>
+        <span>
+          TopUp
+        </span>
+      </div>
+      <div
+        className="service"
+      >
+        <span
+          className="operation"
+        >
+          <TopOnWithoutCardIcon />
+        </span>
+        <span>
+          TopUpWithoutCard
+        </span>
+      </div>
+      <div
+        className="service"
+      >
+        <span
+          className="operation"
+        >
+          <PayIcon />
+        </span>
+        <span>
+          Payment
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="makeRoute"
+  >
+    <button
+      className="build"
+      onClick={[MockFunction]}
+    >
+      Build a route
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButtonsGroup /> should make a snapshot component 1`] = `
+<ForwardRef(RadioGroup)
+  className=""
+  defaultValue="pensioner"
+  name="radio"
+  onChange={[Function]}
+  sx={{}}
+>
+  <ForwardRef(FormControlLabel)
+    control={
+      <ForwardRef(Radio)
+        className="radioButton"
+        sx={
+          {
+            "&.Mui-checked": {
+              "color": "orange",
+            },
+          }
+        }
+      />
+    }
+    label="Pensioner"
+    value="pensioner"
+  />
+</ForwardRef(RadioGroup)>
+`;

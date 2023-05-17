@@ -1,0 +1,42 @@
+@import 'src/styles/variables.module.scss';
+
+.statusWrapper {
+  max-width: 285px;
+  width: 100%;
+  margin-left: 56px;
+  display: flex;
+  align-items: flex-start;
+
+  .direction {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .statusTitle {
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: $normal;
+      padding-left: 16px;
+    }
+
+    &.row {
+      gap: 1.5rem;
+      flex-direction: row;
+    }
+
+    &.column {
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 56px;
+
+      .statusTitle {
+        padding: 0;
+      }
+    }
+  }
+
+  .activateButton {
+    margin-top: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,65 @@
+@import 'src/styles/variables.module.scss';
+
+.popup {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 1077px;
+  height: 554px;
+  background-color: $white_1;
+  border: 1px solid $grayLight_1;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.button {
+  max-width: 343px;
+  width: 100%;
+  height: 56px;
+  background-color: $orange;
+  color: $grayDark_6;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.5s;
+  border: none;
+  margin-top: 65px;
+
+  &:hover {
+    border-color: $brand_3;
+    background-color: $brand_3;
+    color: $white_1;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $brand_4;
+    color: $grayDark_7;
+  }
+}
+
+.modalContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.closeButton {
+  align-self: end;
+  margin-right: 20px;
+  margin-top: 20px;
+}

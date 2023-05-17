@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<History /> should make a snapshot of component 1`] = `
+<Context.Provider
+  value={
+    {
+      "getServerState": undefined,
+      "store": {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": {
+        "addNestedSub": [Function],
+        "getListeners": [Function],
+        "handleChangeWrapper": [Function],
+        "isSubscribed": [Function],
+        "notifyNestedSubs": [Function],
+        "trySubscribe": [Function],
+        "tryUnsubscribe": [Function],
+      },
+    }
+  }
+>
+  <History
+    isLoading={false}
+    transactions={
+      [
+        {
+          "amount": 150.49,
+          "amountFormatted": "150.49",
+          "currency": "GBP",
+          "id": 100,
+          "title": "VISA USA PAYMENT",
+          "transactionTime": "2023-04-11T10:25:31",
+          "transactionType": "TRANSFER",
+        },
+        {
+          "amount": 150.49,
+          "amountFormatted": "150.49",
+          "currency": "GBP",
+          "id": 100,
+          "title": "VISA USA PAYMENT",
+          "transactionTime": "2023-04-11T10:25:31",
+          "transactionType": "TRANSFER",
+        },
+        {
+          "amount": 150.49,
+          "amountFormatted": "150.49",
+          "currency": "GBP",
+          "id": 100,
+          "title": "VISA USA PAYMENT",
+          "transactionTime": "2023-04-11T10:25:31",
+          "transactionType": "TRANSFER",
+        },
+      ]
+    }
+  />
+</Context.Provider>
+`;

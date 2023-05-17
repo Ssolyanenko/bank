@@ -1,0 +1,65 @@
+@import 'src/styles/variables.module.scss';
+
+.tableRow {
+  .tableCellKey {
+    color: $grayDark_8;
+    border-right: 1px solid $grayLight_5;
+    width: 300px;
+  }
+
+  .tableCellValue {
+    color: $grayDark_6;
+    font-weight: $bold;
+    width: 400px;
+    vertical-align: center;
+    &:global(.MuiTableCell-root) {
+      padding: 46px 40px 46px 40px;
+    }
+
+    .tableValue {
+      display: inline-block;
+      min-width: 29px;
+      margin-right: 5px;
+
+      .cvvValue {
+        user-select: none;
+      }
+    }
+
+    .invisibleIcon {
+      transform: scaleX(-1);
+    }
+
+    .copyIcon,
+    .visibleIcon,
+    .invisibleIcon {
+      vertical-align: text-top;
+      cursor: pointer;
+    }
+  }
+
+  .tableCellKey,
+  .tableCellValue {
+    padding: 0 0 0 48px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  &:last-child .tableCellKey,
+  &:last-child .tableCellValue {
+    border-bottom: 0;
+  }
+}
+
+.snackbar {
+  .snackbarContent {
+    background-color: $grayLight_5;
+    box-shadow: none;
+    width: 307px;
+    height: 48px;
+
+    .snackbarMessage {
+      color: $grayDark_6;
+    }
+  }
+}

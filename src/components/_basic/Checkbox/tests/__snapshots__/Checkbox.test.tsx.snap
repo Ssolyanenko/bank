@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> should make a snapshot of component 1`] = `
+<div
+  className="checkboxWrapper "
+>
+  <ForwardRef(Checkbox)
+    checked={false}
+    name="checkbox"
+    onChange={[MockFunction]}
+    value={false}
+  />
+  
+</div>
+`;

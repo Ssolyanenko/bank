@@ -1,0 +1,32 @@
+@import 'src/styles/variables.module.scss';
+
+.linkWrapper {
+  list-style: none;
+
+  .link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 32px;
+    margin-left: 52px;
+    margin-bottom: 15px;
+    border-left: 4px solid transparent;
+    gap: 28px;
+    width: 240px;
+    height: 56px;
+    font-weight: $normal;
+    font-size: 1rem;
+    color: $grayDark_8;
+
+    &:hover {
+      cursor: pointer;
+      color: $grayDark_6;
+    }
+  }
+
+  .active {
+    color: $grayDark_6;
+    border-left: 4px solid $orange;
+    transition: border-right 8ms;
+  }
+}

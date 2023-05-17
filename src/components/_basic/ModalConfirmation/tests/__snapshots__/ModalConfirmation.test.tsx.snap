@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalConfirmation /> should make a snapshot 1`] = `
+<ForwardRef(Dialog)
+  onClose={[MockFunction]}
+  open={true}
+  sx={
+    {
+      "& .MuiDialog-container": {
+        "& .MuiPaper-root": {
+          "maxWidth": {
+            "maxWidth": "300px",
+          },
+          "padding": "20px",
+          "width": "100%",
+        },
+      },
+    }
+  }
+>
+  <div>
+    Hello world
+  </div>
+</ForwardRef(Dialog)>
+`;

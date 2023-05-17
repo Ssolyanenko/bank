@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDownWithCheckbox /> should make custom snapshot 1`] = `
+<ForwardRef(FormControl)
+  fullWidth={true}
+>
+  <ForwardRef(InputLabel)
+    shrink={true}
+  >
+    
+  </ForwardRef(InputLabel)>
+  <ForwardRef(Select)
+    IconComponent={
+      {
+        "$$typeof": Symbol(react.memo),
+        "compare": null,
+        "type": {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    displayEmpty={true}
+    label=""
+    multiple={true}
+    name=""
+    notched={true}
+    onChange={[Function]}
+    onClick={[Function]}
+    renderValue={[Function]}
+    required={false}
+    value={[]}
+  />
+</ForwardRef(FormControl)>
+`;
+
+exports[`<DropDownWithCheckbox /> should make snapshot with default props 1`] = `
+<ForwardRef(FormControl)
+  fullWidth={true}
+>
+  <ForwardRef(InputLabel)
+    shrink={true}
+  >
+    
+  </ForwardRef(InputLabel)>
+  <ForwardRef(Select)
+    IconComponent={
+      {
+        "$$typeof": Symbol(react.memo),
+        "compare": null,
+        "type": {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    displayEmpty={true}
+    label=""
+    multiple={true}
+    name="dropDown"
+    notched={true}
+    onChange={[Function]}
+    onClick={[Function]}
+    renderValue={[Function]}
+    required={false}
+    value={[]}
+  />
+</ForwardRef(FormControl)>
+`;

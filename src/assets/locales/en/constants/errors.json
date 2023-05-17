@@ -1,0 +1,26 @@
+{
+  "errors": {
+    "required": "The field is required to fill out",
+    "terms": "Please, accept the terms and conditions and confirm the accuracy of information provided.",
+    "invalid": "Invalid {{name}} format, please try again",
+    "min": "Required number of characters is {{min}}",
+    "max": "Maximum number of characters is {{max}}",
+    "minCardAmount": "The minimum amount of a credit is £{{min}}",
+    "maxAmount": "The maximum amount of a credit is £{{max}}",
+    "allFields": "You haven\"t filled out all required fields",
+    "limitChanges": "The limit amount can be from 0.00 to 25,000.00 currency units",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "doesNotMatch": "Your pin codes do not match",
+    "noBanksFound": "Sorry, no banks are found, change the city",
+    "onlyDigits": "Only digits are allowed",
+    "compulsory": "This field is compulsory",
+    "minCategories": "You must select 3 categories",
+    "maxCategories": "Only 3 categories allowed",
+    "chooseCard": "Before entering the amount, please, choose a card",
+    "minAmount": "The minimum transfer amount is 1 GBP",
+    "minEmail": "The e-mail must be at least 5 characters long",
+    "maxEmail": "The maximum number of characters is {{max}}",
+    "passwordValidation": "Field should contain letters (at least 1 capital and 1 lowercase letter) and numbers",
+    "loseData": "If you leave now, the data you entered will be lost. Are you sure you want to leave?"
+  }
+}

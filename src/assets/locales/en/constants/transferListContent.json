@@ -1,0 +1,15 @@
+{
+  "transferListContent": {
+    "titles": {
+      "byPhoneNumber": "By phone number",
+      "byCardNumber": "By card number",
+      "byAccountNumber": "By account number",
+      "betweenYourCards": "Between your cards"
+    },
+    "details": {
+      "byPhoneNumber": "You can only transfer to AMN clients",
+      "byCardNumber": "Transfer to AMN cards and cards issued by other banks",
+      "byAccountNumber": "For accounts created in Great Britan"
+    }
+  }
+}

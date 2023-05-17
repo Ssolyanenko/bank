@@ -1,0 +1,6 @@
+{
+  "pagination": {
+    "quantity": "Showing {{entriesOnPage}} out of {{totalEntries}} records",
+    "currentPage": "Page {{currentPage}} out of {{totalPages}}"
+  }
+}

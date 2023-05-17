@@ -1,0 +1,24 @@
+{
+  "landingPage": {
+    "titles": {
+      "0": {
+        "title": "Mobile Application\nAMN Banking Online",
+        "subTitle": "Banking in your phone"
+      },
+      "1": {
+        "title": "Get a virtual\nCard for free",
+        "subTitle": "And pay for subscriptions and purchases on the Internet"
+      },
+      "2": {
+        "title": "Get a Bright\nCard",
+        "subTitle": "with instant money back"
+      },
+      "3": {
+        "title": "Mobile Application\nAMN Banking Online",
+        "subTitle": "Banking in your phone"
+      }
+    },
+    "logIn": "Log in",
+    "subTitlePasswordRecovery": "Password changed successfully. Now you can log in to your account"
+  }
+}

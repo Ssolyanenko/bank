@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactsFooter /> should make a snapshot of component 1`] = `
+<Router
+  location={
+    {
+      "hash": "",
+      "key": "default",
+      "pathname": "/",
+      "search": "",
+      "state": null,
+    }
+  }
+  navigationType="POP"
+  navigator={
+    {
+      "action": "POP",
+      "createHref": [Function],
+      "encodeLocation": [Function],
+      "go": [Function],
+      "index": 0,
+      "listen": [Function],
+      "location": {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <ContactsFooter />
+</Router>
+`;

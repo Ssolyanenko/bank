@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferAccordionSummary /> should make a snapshot of the component 1`] = `
+<div
+  className="summaryWrapper"
+>
+  <div
+    className="icon"
+  >
+    <p />
+  </div>
+  <div
+    className="contentWrapper"
+  >
+    <h2
+      className="title"
+    >
+      title
+    </h2>
+    <p
+      className="descriptionText"
+    >
+      
+    </p>
+  </div>
+</div>
+`;

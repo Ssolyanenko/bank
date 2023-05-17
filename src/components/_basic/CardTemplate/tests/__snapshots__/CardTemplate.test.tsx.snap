@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardTemplate /> should make a snapshot of component 1`] = `
+<div
+  className="cardWrappingArea "
+>
+  <div
+    className="cardWrapper "
+    onClick={[Function]}
+    role="presentation"
+  >
+    <main
+      className=" card debitTravel  "
+    >
+      <div
+        className="nameWrapper"
+      >
+        <h3
+          className="name"
+        >
+          Travel card
+        </h3>
+        <AppLogoIcon
+          className="logoIcon"
+          color="white_1"
+        />
+      </div>
+      <div
+        className="creditNumber"
+      >
+        <CardTemplateDots />
+        <CardTemplateDots />
+        <CardTemplateDots />
+        <div
+          className="dotNumbers"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="cardDate"
+      >
+        12/24
+      </div>
+      <div
+        className="totalSumWrapper"
+      >
+        <p
+          className="totalSum"
+        >
+          1000 GBP
+        </p>
+        Unknown type of card
+      </div>
+    </main>
+    <div
+      className=" card debitTravel cardBack"
+    >
+      <div
+        className="stripe"
+      />
+      <div
+        className="cvv"
+      >
+        <div
+          className="showPassword"
+        >
+          <React.Fragment>
+            <span
+              className="stars"
+            >
+               *** 
+            </span>
+            <span
+              className="icon"
+            >
+              <PasswordIconInvisible
+                onClick={[Function]}
+              />
+            </span>
+          </React.Fragment>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

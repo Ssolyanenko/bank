@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialMedia /> component renders without error 1`] = `
+<ul
+  className="buttonsList"
+>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <InstagramIcon />
+      Direct
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <FacebookIcon />
+      Messenger
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <SkypeIcon />
+      Skype
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <WhatsAppIcon />
+      WhatsApp
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <TwitterIcon />
+      Twitter
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <LinkedInIcon />
+      LinkedIn
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <EmailIcon />
+      E-mail
+    </Button>
+  </li>
+  <li
+    className="buttonItem"
+  >
+    <Button
+      className="button"
+      type="submit"
+    >
+      <TelegramIcon />
+      Telegram
+    </Button>
+  </li>
+</ul>
+`;

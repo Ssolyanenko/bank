@@ -1,0 +1,21 @@
+@import 'src/styles/variables.module.scss';
+
+.cardsWrapper {
+  width: 950px;
+  overflow: scroll;
+  padding-left: 5px;
+  padding-bottom: 40px;
+
+  .cardInfo {
+    transform: scale(0.87);
+    margin-top: -15px;
+
+    .cardTitle {
+      text-transform: capitalize;
+    }
+
+    &.notSelectedCard {
+      color: $grayDark_7;
+    }
+  }
+}

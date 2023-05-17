@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShareReceiptModal /> component renders without error 1`] = `
+<ModalConfirmation
+  isOpened={true}
+  maxWidth="603px"
+  onClose={[MockFunction]}
+>
+  <div
+    className="modalContainer"
+  >
+    <div
+      className="modalCloseButton"
+    >
+      <CloseButton
+        onClick={[MockFunction]}
+        size="medium"
+      />
+    </div>
+    <div
+      className="contentWrapper"
+    >
+      <p
+        className="title"
+      >
+        Share receipt
+      </p>
+      <SocialMedia />
+    </div>
+  </div>
+</ModalConfirmation>
+`;

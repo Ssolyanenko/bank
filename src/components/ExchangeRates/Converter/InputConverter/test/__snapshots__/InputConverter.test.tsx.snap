@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputConverter /> should make a snapshot 1`] = `
+<div
+  className="container"
+>
+  <span
+    className="textOperation"
+  >
+    Amount
+  </span>
+  <div
+    className="inputContainer"
+  >
+    <span
+      className="textRate"
+    >
+      $
+    </span>
+    <input
+      className="inputValue"
+      disabled={false}
+      onChange={[Function]}
+      value="100"
+    />
+  </div>
+  <div
+    className="underline"
+  />
+</div>
+`;

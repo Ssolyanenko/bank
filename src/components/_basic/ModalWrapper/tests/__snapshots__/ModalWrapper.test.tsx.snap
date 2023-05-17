@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalWrapper /> should make a snapshot 1`] = `
+<ForwardRef(Modal)
+  aria-describedby="modal-modal-description"
+  aria-labelledby="modal-modal-title"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <ForwardRef(Box)
+    className="popup"
+    id="testId"
+  >
+    <ForwardRef(Typography)
+      className="title"
+      id="modal-modal-title"
+    >
+      Congratulations!
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)
+      className="main"
+      id="modal-modal-description"
+      sx={
+        {
+          "mt": 2,
+        }
+      }
+    >
+      Login
+    </ForwardRef(Typography)>
+    <SuccessIcon
+      className="successIcon"
+    />
+    <PrimaryButton
+      onClick={[MockFunction]}
+    >
+      textButton
+    </PrimaryButton>
+  </ForwardRef(Box)>
+</ForwardRef(Modal)>
+`;

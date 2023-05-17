@@ -1,0 +1,26 @@
+@import 'src/styles/variables.module.scss';
+
+.componentWrapper {
+  max-width: 725px;
+  width: 100%;
+
+  .rowWrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 36px;
+  }
+
+  .elementWrapper {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .error {
+    color: $error_3;
+    margin: 8px 0 0 14px;
+    font-size: 0.875rem;
+    display: inline-block;
+  }
+}

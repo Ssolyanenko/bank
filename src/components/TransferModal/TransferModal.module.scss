@@ -1,0 +1,67 @@
+@import 'src/styles/variables.module.scss';
+
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 252px;
+  border-radius: 8px;
+  background-color: $white_1;
+
+  .failureContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .failureTitle {
+      margin-top: 32px;
+      font-weight: $bold;
+      font-size: 1rem;
+      line-height: 24px;
+      color: $grayDark_6;
+    }
+
+    .modalText {
+      margin-top: 8px;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: $normal;
+      line-height: 24px;
+      color: $grayDark_6;
+    }
+  }
+}
+
+.modalCloseButton {
+  align-self: flex-end;
+  padding-top: 1px;
+  padding-right: 1px;
+
+  button > svg > path {
+    stroke: $grayDark_6;
+  }
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 336px;
+  border-radius: 8px;
+  background-color: $white_1;
+
+  .successContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    gap: 32px;
+
+    .successTitle {
+      font-weight: $normal;
+      font-size: 1rem;
+      line-height: 24px;
+      color: $grayDark_6;
+    }
+  }
+}

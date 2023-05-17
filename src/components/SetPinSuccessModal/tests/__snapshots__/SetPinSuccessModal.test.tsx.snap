@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SetPinSuccessModal /> should make a snapshot ERROR status of change pin code modal 1`] = `
+<Modal
+  handleClose={[MockFunction]}
+  isOpen={true}
+>
+  <div
+    className="pinCodeSuccessModal"
+  >
+    <CloseButton
+      className="closeButton"
+      onClick={[MockFunction]}
+      size="medium"
+    />
+    <div
+      className="icon"
+    >
+      <ExclamationMarkIcon />
+    </div>
+    <div
+      className="modalTextWrapper "
+    >
+      <p
+        className="textItem"
+      >
+        Something went wrong.
+      </p>
+      <p
+        className="textItem"
+      >
+        Please, try again or contact the support service.
+      </p>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<SetPinSuccessModal /> should make a snapshot ERROR status of set pin code modal 1`] = `
+<Modal
+  handleClose={[MockFunction]}
+  isOpen={true}
+>
+  <div
+    className="pinCodeSuccessModal"
+  >
+    <CloseButton
+      className="closeButton"
+      onClick={[MockFunction]}
+      size="medium"
+    />
+    <div
+      className="icon"
+    >
+      <ExclamationMarkIcon />
+    </div>
+    <div
+      className="modalTextWrapper hasRedirectButton"
+    >
+      <p
+        className="textItem"
+      >
+        Something went wrong.
+      </p>
+      <p
+        className="textItem"
+      >
+        Please, try again or contact the support service.
+      </p>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<SetPinSuccessModal /> should make a snapshot SUCCESS status of change pin code modal 1`] = `
+<Modal
+  handleClose={[MockFunction]}
+  isOpen={true}
+>
+  <div
+    className="pinCodeSuccessModal"
+  >
+    <CloseButton
+      className="closeButton"
+      onClick={[MockFunction]}
+      size="medium"
+    />
+    <div
+      className="icon"
+    >
+      <CheckmarkIcon />
+    </div>
+    <div
+      className="modalTextWrapper "
+    >
+      <p
+        className="textItem"
+      >
+        Your pin code has been changed successfully
+      </p>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<SetPinSuccessModal /> should make a snapshot SUCCESS status of set pin code modal 1`] = `
+<Modal
+  handleClose={[MockFunction]}
+  isOpen={true}
+>
+  <div
+    className="pinCodeSuccessModal"
+  >
+    <CloseButton
+      className="closeButton"
+      onClick={[MockFunction]}
+      size="medium"
+    />
+    <div
+      className="icon"
+    >
+      <CheckmarkIcon />
+    </div>
+    <div
+      className="modalTextWrapper hasRedirectButton"
+    >
+      <p
+        className="textItem"
+      >
+        Success! Your card is active now.
+      </p>
+      <p
+        className="textItem"
+      >
+        Card details can be found in the My Cards section.
+      </p>
+    </div>
+    <PrimaryButton
+      className="redirectButton"
+      onClick={[Function]}
+      size="small"
+      type="button"
+    >
+      Go to My Cards
+    </PrimaryButton>
+  </div>
+</Modal>
+`;

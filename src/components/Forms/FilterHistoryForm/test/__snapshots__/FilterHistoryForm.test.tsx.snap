@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterHistoryForm /> should make a snapshot 1`] = `
+<Context.Provider
+  value={
+    {
+      "getServerState": undefined,
+      "store": {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": {
+        "addNestedSub": [Function],
+        "getListeners": [Function],
+        "handleChangeWrapper": [Function],
+        "isSubscribed": [Function],
+        "notifyNestedSubs": [Function],
+        "trySubscribe": [Function],
+        "tryUnsubscribe": [Function],
+      },
+    }
+  }
+>
+  <FilterHistoryForm
+    filters={
+      {
+        "endDate": "",
+        "maxAmount": "1,000,000.00",
+        "minAmount": "0.00",
+        "operationType": "",
+        "startDate": "",
+        "titleFilter": "",
+      }
+    }
+    setFilters={[MockFunction]}
+    titleFilter=""
+    userCardId={1}
+  />
+</Context.Provider>
+`;

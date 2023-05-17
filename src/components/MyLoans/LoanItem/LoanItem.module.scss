@@ -1,0 +1,55 @@
+@import 'src/styles/variables.module.scss';
+
+.loanItemWrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  gap: 80px;
+  border-bottom: 1px solid $grayLight_5;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 1rem;
+  color: $grayDark_6;
+
+  .loanCommonInfo {
+    min-width: 191px;
+    display: flex;
+    height: 52px;
+    gap: 16px;
+    flex-direction: row;
+    align-items: flex-start;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+    }
+
+    .period {
+      height: 24px;
+      display: flex;
+      align-items: center;
+      font-weight: $normal;
+      font-size: 1rem;
+      color: $grayDark_7;
+    }
+  }
+
+  .showMore {
+    display: flex;
+    align-items: center;
+    gap: 9.33px;
+    font-weight: $normal;
+    font-size: 0.86rem;
+
+    .arrowIcon:hover {
+      cursor: pointer;
+    }
+  }
+}

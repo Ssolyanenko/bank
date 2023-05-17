@@ -1,0 +1,94 @@
+@import 'src/styles/variables.module.scss';
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 343px;
+
+  .inputLabel {
+    position: absolute;
+    top: -4px;
+    left: 12px;
+    height: 16px;
+    padding: 0 3px;
+    font-weight: $normal;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    color: $grayLight_10;
+    background-color: $white_1;
+    border: none;
+    z-index: 1;
+  }
+
+  .inputField {
+    width: 100%;
+    min-height: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: $grayDark_7;
+  }
+}
+
+:global .MuiPopover-paper {
+  margin-top: 8px;
+  outline: none;
+}
+
+:global .MuiList-root.MuiMenu-list {
+  padding: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  z-index: 3;
+
+  .MuiTypography-root {
+    color: $grayDark_6;
+  }
+}
+
+:global .MuiButtonBase-root.MuiMenuItem-root {
+  min-height: 56px;
+  border-bottom: 1px solid $grayLight_11;
+  font-weight: $normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow: hidden;
+
+  &.Mui-selected {
+    background-color: transparent;
+  }
+
+  &.Mui-selected:hover {
+    background-color: $brand_4;
+  }
+
+  &:hover {
+    background-color: $brand_4;
+
+    .MuiSvgIcon-root {
+      fill: currentColor;
+    }
+  }
+
+  &:active {
+    background-color: $orange;
+  }
+}
+
+:global .MuiListItemIcon-root {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+
+  .MuiSvgIcon-root {
+    fill: transparent;
+  }
+}
+
+:global .MuiSelect-select {
+  max-height: 56px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}

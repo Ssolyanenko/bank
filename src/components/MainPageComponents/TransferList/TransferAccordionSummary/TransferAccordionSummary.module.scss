@@ -1,0 +1,15 @@
+@import 'src/styles/variables.module.scss';
+
+.summaryWrapper {
+  display: flex;
+  align-items: center;
+  padding: 24px 16px;
+
+  .contentWrapper {
+    margin-left: 24px;
+
+    .descriptionText {
+      margin-top: 4px;
+    }
+  }
+}

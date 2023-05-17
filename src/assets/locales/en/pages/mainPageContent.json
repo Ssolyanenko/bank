@@ -1,0 +1,10 @@
+{
+  "mainPageContent": {
+    "titles": {
+      "myCards": "My cards",
+      "operationHistory": "Operation history",
+      "exchangeRates": "Exchange rates",
+      "featureServices": "Featured services"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import 'src/styles/variables.module.scss';
+
+.arrowDown {
+  position: relative;
+  height: 32px;
+  z-index: 1;
+  display: flex;
+  flex: 0 0 auto;
+
+  & span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: -16px;
+    border-bottom: 1px solid $brand_1;
+    border-right: 1px solid $brand_1;
+    transform: rotate(45deg);
+    animation: arrow-down 2s infinite;
+
+    &:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: -0.4s;
+    }
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-50%, -50%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: rotate(45deg) translate(50%, 50%);
+  }
+}

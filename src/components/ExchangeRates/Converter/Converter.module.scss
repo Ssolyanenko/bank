@@ -1,0 +1,23 @@
+@import 'src/styles/variables.module.scss';
+
+.convert {
+  display: flex;
+  flex-direction: row;
+  width: 32.375rem;
+  justify-content: space-between;
+}
+
+.iconExchange {
+  text-align: center;
+  margin-top: 1rem;
+
+  .icon {
+    cursor: pointer;
+  }
+}
+
+.inputAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

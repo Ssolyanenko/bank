@@ -1,0 +1,16 @@
+@import 'src/styles/variables.module.scss';
+
+.tabs {
+  position: relative;
+  width: 688px;
+
+  .title {
+    position: absolute;
+    left: 25%;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+  }
+}

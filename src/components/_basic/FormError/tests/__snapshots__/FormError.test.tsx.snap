@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormError /> should make a snapshot of component 1`] = `
+[
+  <div
+    class="error "
+  >
+    error
+  </div>,
+]
+`;

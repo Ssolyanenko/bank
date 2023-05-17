@@ -1,0 +1,42 @@
+@import 'src/styles/variables.module.scss';
+
+.sprite {
+  display: grid;
+  justify-items: center;
+  padding: 20px;
+  overflow: auto;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+  & .spriteIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: $grayDark_3;
+    box-shadow: 0 4px 25px rgba(2, 3, 3, 0.03);
+  }
+
+  & .logoIcon {
+    width: 100px;
+    height: 100px;
+  }
+
+  & .defaultIcon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .linkStore {
+    width: 130px;
+    height: 70px;
+  }
+
+  & .logoIconColored {
+    width: 100px;
+    height: 100px;
+    fill: $white_1;
+  }
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDownWithSearchBranches /> should check renderInput with arguments 1`] = `
+<ForwardRef(TextField)
+  InputLabelProps={
+    {
+      "shrink": true,
+    }
+  }
+  injectFirst={true}
+  inputProps={{}}
+  label=""
+  name="dropDown"
+  placeholder=""
+>
+  <ForwardRef(Box)>
+    <ForwardRef(FormControl)
+      fullWidth={true}
+    >
+      <ForwardRef(Autocomplete)
+        autoHighlight={true}
+        classes={
+          {
+            "option": "menuItem",
+          }
+        }
+        getOptionLabel={[Function]}
+        isOptionEqualToValue={[Function]}
+        noOptionsText="Something went wrong"
+        onChange={[Function]}
+        options={[]}
+        placeholder=""
+        popupIcon={<Memo />}
+        renderInput={[Function]}
+        renderOption={[Function]}
+      />
+    </ForwardRef(FormControl)>
+  </ForwardRef(Box)>
+</ForwardRef(TextField)>
+`;
+
+exports[`<DropDownWithSearchBranches /> should check renderOption with arguments 1`] = `
+<ForwardRef(MenuItem)
+  injectFirst={true}
+>
+  22 street, 1
+</ForwardRef(MenuItem)>
+`;
+
+exports[`<DropDownWithSearchBranches /> should check renderOption without arguments 1`] = `
+<ForwardRef(MenuItem)
+  injectFirst={true}
+>
+  
+</ForwardRef(MenuItem)>
+`;
+
+exports[`<DropDownWithSearchBranches /> should make a snapshot component 1`] = `
+<StyledEngineProvider
+  injectFirst={true}
+>
+  <ForwardRef(Box)>
+    <ForwardRef(FormControl)
+      fullWidth={true}
+    >
+      <ForwardRef(Autocomplete)
+        autoHighlight={true}
+        classes={
+          {
+            "option": "menuItem",
+          }
+        }
+        getOptionLabel={[Function]}
+        isOptionEqualToValue={[Function]}
+        noOptionsText="Something went wrong"
+        onChange={[Function]}
+        options={[]}
+        placeholder=""
+        popupIcon={<Memo />}
+        renderInput={[Function]}
+        renderOption={[Function]}
+      />
+    </ForwardRef(FormControl)>
+  </ForwardRef(Box)>
+</StyledEngineProvider>
+`;

@@ -1,0 +1,47 @@
+@import 'src/styles/variables.module.scss';
+
+.rates {
+  max-width: 207px;
+  width: 100%;
+
+  .icon {
+    margin-right: 40px;
+  }
+
+  .option {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding-left: 10px;
+    position: absolute;
+
+    .text {
+      font-weight: $normal;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $grayDark_7;
+    }
+  }
+
+  .select {
+    width: 100%;
+    padding-left: 42px;
+    font-weight: $bold;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $grayDark_6;
+
+    & > div {
+      padding: 12px 12px 12px 8px;
+    }
+
+    & > svg {
+      top: 19px;
+      right: 12px;
+    }
+  }
+}
+
+.menuItem {
+  width: 207px;
+}

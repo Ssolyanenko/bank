@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectList /> should make a snapshot 1`] = `
+<div
+  className="rates"
+>
+  <div
+    className="option"
+  >
+    <span>
+      <USIcon
+        className="icon"
+      />
+    </span>
+    <span
+      className="text"
+    >
+      US Dollar
+    </span>
+  </div>
+  <StyledEngineProvider
+    injectFirst={true}
+  >
+    <ForwardRef(FormControl)
+      fullWidth={true}
+    >
+      <ForwardRef(Select)
+        IconComponent={[Function]}
+        MenuProps={
+          {
+            "anchorOrigin": {
+              "horizontal": "right",
+              "vertical": "bottom",
+            },
+            "transformOrigin": {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+          }
+        }
+        className="select"
+        onChange={[Function]}
+        value="USD"
+      >
+        <ForwardRef(MenuItem)
+          className="menuItem"
+          value="USD"
+        >
+          USD
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          className="menuItem"
+          value="EUR"
+        >
+          EUR
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          className="menuItem"
+          value="GBP"
+        >
+          GBP
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          className="menuItem"
+          value="CHF"
+        >
+          CHF
+        </ForwardRef(MenuItem)>
+      </ForwardRef(Select)>
+    </ForwardRef(FormControl)>
+  </StyledEngineProvider>
+</div>
+`;

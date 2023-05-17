@@ -1,0 +1,30 @@
+{
+  "user": {
+    "accessGranted": "Access granted",
+    "responseMessageReport": "Passport is valid. Sms sent successfully",
+    "invalidPassword": "Invalid password",
+    "responseMessageSMS": "Change password code is correct",
+    "responseMessageNewPassword": "Password changed successfully! Please login again",
+    "responseMessagePasswordError": "This ID number is not registered. Please check the entered data or contact the bank",
+    "sessionCodeIsCorrect": "Session code is correct",
+    "responseMessagePassportOnFirstLogin": "The one-time password cannot be changed via password recovery. Please contact the bank in case of problems with the one-time password",
+    "userUnregistered": "This user is not registered yet",
+    "smsSendAgain": "Sms sent successfully",
+    "smsNotValid": "Invalid sms code",
+    "smsBanState": "Ban time is not over yet...",
+    "firstLogin": "Required to change password on first login",
+    "smsFailFirstText": "Wrong code, 2 attempts left",
+    "smsFailSecondText": "Wrong code, 1 attempts left",
+    "smsFailTrirdText": "You have entered an incorrect SMS code three times, you can try to log in again in 30 minutes",
+    "passwordFailFirstText": "Invalid password. You have 2 attempts left",
+    "passwordFailSecondText": "Invalid password. You have 1 attempt left",
+    "passwordFailThirdText": "You have entered an incorrect password three times, you can try to log in again in 30 minutes",
+    "passwordLoginFail": "You have entered an incorrect SMS code three times, you can try to reset password again in 30 minutes",
+    "passwordRecoveryFail": "This ID number is not registered. Please check the entered data or contact the bank",
+    "smsCodeHaveSend": "We sent SMS with a 4-digit verification code to",
+    "codeExpirationTime": "Code expiration time",
+    "passwordShouldContain": "Password must be at least 7 characters long, include lowercase and capital letters, numbers and special characters",
+    "codeHasExpired": "The code has expired",
+    "transactionIsSet": "Your transaction limit is set"
+  }
+}

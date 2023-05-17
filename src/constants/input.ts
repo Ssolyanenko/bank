@@ -1,0 +1,31 @@
+export enum InputNames {
+  FIRST_NAME = 'firstName',
+  LAST_NAME = 'lastName',
+  LOGIN = 'login',
+  PHONE = 'phone',
+  EMAIL = 'email',
+  PASSPORT = 'passport',
+  CURRENT_PASSWORD = 'currentPassword',
+  CREATE_NEW_PASSWORD = 'createNewPassword',
+  CONFIRM_NEW_PASSWORD = 'confirmNewPassword',
+  SECURITY_QUESTION = 'securityQuestion',
+  YOUR_SECURITY_QUESTION = 'yourSecurityQuestion',
+  ANSWER = 'answer',
+  NEW_PASSWORD = 'newPassword',
+  CONFIRM_PASSWORD = 'confirmPassword',
+  SMS_CODE = 'smsCode',
+  TRANSACTION_LIMIT = 'transactionLimit',
+  CHANGE_LIMIT_AGREED = 'changeLimitAgreed',
+}
+
+export enum InputLabels {
+  FIRST_NAME = 'First Name',
+  LAST_NAME = 'Last Name',
+  ID_NUMBER = 'ID number',
+  PHONE = 'Phone number',
+  EMAIL = 'Email',
+  NEW_PASSWORD = 'New password',
+  CONFIRM_PASSWORD = 'Confirm password',
+  SMS_CODE = '4-digit session key',
+  TRANSACTION_LIMIT_LABEL = 'Transaction limit, GBP',
+}

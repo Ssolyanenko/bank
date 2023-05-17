@@ -1,0 +1,38 @@
+@import 'src/styles/variables.module.scss';
+
+.setPinCodeForm {
+  max-width: 345px;
+  width: 100%;
+  margin: 24px auto 0;
+
+  .formTitle {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  .inputLabel {
+    display: block;
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .inputLabelTitle,
+  .inputError {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.43;
+  }
+
+  .inputLabelTitle {
+    color: $grayDark_8;
+    margin-bottom: 8px;
+  }
+
+  .inputError {
+    margin-top: 8px;
+  }
+}

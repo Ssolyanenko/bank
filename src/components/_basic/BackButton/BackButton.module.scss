@@ -1,0 +1,30 @@
+@import 'src/styles/variables.module.scss';
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  color: $grayDark_7;
+  cursor: pointer;
+
+  .arrowIcon {
+    width: 24px;
+    height: 24px;
+    fill: $grayDark_7;
+  }
+
+  .text {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &:hover {
+    color: $grayDark_6;
+
+    .arrowIcon {
+      fill: $grayDark_6;
+    }
+  }
+}

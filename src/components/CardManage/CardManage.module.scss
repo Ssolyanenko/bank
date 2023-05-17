@@ -1,0 +1,17 @@
+@import 'src/styles/variables.module.scss';
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 567px;
+
+  & .elementWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px 16px 24px;
+    border: 1px solid $grayLight_5;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+}

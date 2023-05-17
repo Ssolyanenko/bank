@@ -1,0 +1,16 @@
+@import 'src/styles/variables.module.scss';
+
+.wrapper {
+  display: flex;
+  margin-left: 3.5rem;
+  color: $grayDark_6;
+
+  .backButton {
+    padding: 0.5rem 3vw 0 0;
+  }
+
+  .pageTitle {
+    font-size: 2rem;
+    margin-bottom: 6.4vh;
+  }
+}

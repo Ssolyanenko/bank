@@ -1,0 +1,65 @@
+@import 'src/styles/variables.module.scss';
+
+.cardBlockWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 32px;
+
+  .cardInfoWrapper {
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    .cardInfoTitle {
+      font-weight: $bold;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-transform: capitalize;
+      color: $grayDark_6;
+      margin: 0;
+    }
+
+    .cardInfo {
+      width: 100%;
+      padding-left: 25px;
+      list-style-type: disc;
+      font-weight: $normal;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $grayDark_6;
+    }
+
+    .removeCircle {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .primaryButton {
+      align-self: center;
+    }
+
+    .button {
+      &:hover {
+        cursor: pointer;
+        background-color: $brand_6;
+        border: 1px solid $brand_6;
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+        background-color: $brand_4;
+      }
+    }
+  }
+}
+
+.cardBlockStoryBook {
+  width: 800px;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 auto;
+}

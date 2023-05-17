@@ -1,0 +1,97 @@
+@import 'src/styles/variables.module.scss';
+
+.contactsFooter,
+.contactsMain {
+  .timeWork {
+    font-weight: $normal;
+    font-size: 0.75rem;
+    line-height: 1.33;
+    list-style-type: none;
+  }
+
+  .title {
+    font-weight: $bold;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    line-height: 1.5;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .phoneIcon {
+      margin-right: 12px;
+      fill: $grayDark_6;
+      width: 24px;
+      height: 24px;
+    }
+
+    .local,
+    .international {
+      margin-right: 32px;
+      display: flex;
+      flex-direction: column;
+
+      .localText,
+      .internationalText {
+        font-weight: $normal;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      .text {
+        font-weight: $normal;
+        font-size: 0.75rem;
+        color: $grayDark_7;
+      }
+    }
+  }
+}
+
+.contactsFooter {
+  display: flex;
+  .individual {
+    order: 2;
+  }
+
+  .individual,
+  .support {
+    padding-left: 4.2rem;
+    margin: 2.5rem 0;
+  }
+
+  .footerWrapper {
+    min-height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.contactsMain {
+  padding-left: 11.5rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+
+  .timeWork {
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    display: block;
+    font-weight: $normal;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}

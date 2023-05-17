@@ -1,0 +1,37 @@
+@import 'src/styles/variables.module.scss';
+
+.formContainer {
+  padding: 0 58px;
+  min-height: 292px;
+
+  .formTitleBox {
+    margin-top: 5px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    .formTitle {
+      font-size: 1.5rem;
+      font-weight: $bold;
+    }
+  }
+
+  .dateFilter {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: $normal;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: $grayDark_8;
+
+    .dateInputs {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: $grayDark_7;
+      font-size: 1rem;
+    }
+  }
+}

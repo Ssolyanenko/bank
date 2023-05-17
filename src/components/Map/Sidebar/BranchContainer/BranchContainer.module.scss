@@ -1,0 +1,72 @@
+@import 'src/styles/variables.module.scss';
+
+.container {
+  display: block;
+  height: 113px;
+  width: 100%;
+  border: 0.4px solid $grayLight_5;
+  background-color: $white_1;
+
+  .branchContainer {
+    display: flex;
+    position: relative;
+    height: 113px;
+    border: 0.4px solid $grayLight_5;
+    flex-direction: column;
+
+    .workHour {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: flex-end;
+      height: 40px;
+      margin-left: 16px;
+
+      .location {
+        width: 20%;
+        margin-right: 25.1px;
+      }
+
+      .open {
+        color: $success_1;
+        width: 40%;
+      }
+
+      .close {
+        color: $error_1;
+        width: 40%;
+      }
+
+      .time {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        width: 40%;
+      }
+    }
+
+    .content {
+      width: 100%;
+      padding-top: 17px;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .icon {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .address {
+        display: flex;
+        flex-direction: column;
+
+        .branchType {
+          font-weight: 900;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}

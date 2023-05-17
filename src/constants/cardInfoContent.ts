@@ -1,0 +1,16 @@
+export enum CardInfoContent {
+  BALANCE = 'Balance',
+  LOAN_AMOUNT = 'Loan amount',
+  LOAN_PERIOD = 'Loan period',
+  INTEREST_RATE = 'Interest rate',
+  PAYABLE_MONTHLY = 'Payable monthly',
+  NEXT_PAYMENT_DUE_ON = 'Next payment due on',
+  REPAID_AMOUNT = 'Repaid amount',
+  ISSUED_ON = 'Issued on',
+  VALID_THROUGH = 'Valid through',
+  CARD_HOLDER = 'Card holder',
+  CARD_NUMBER = 'Card number',
+  CVV = 'CVV',
+  IBAN = 'IBAN',
+  ACCOUNT_NUMBER = 'Account number',
+}

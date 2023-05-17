@@ -1,0 +1,73 @@
+@import 'src/styles/variables.module.scss';
+
+.form {
+  max-width: 603px;
+  height: 440px;
+  padding: 28px 0px 36px 0px;
+  display: flex;
+  justify-content: center;
+
+  .formContainer {
+    width: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .lable {
+    width: 100%;
+  }
+
+  .formTitle {
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 2rem;
+    line-height: 48px;
+    text-align: center;
+    color: $grayDark_6;
+  }
+
+  .terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 16px;
+    height: 112px;
+    background: $grayLight_5;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .submitButton {
+    width: 143px;
+    height: 48px;
+    margin: 0;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  .submitButton:not([disabled]) {
+    pointer-events: auto;
+    cursor: pointer;
+  }
+
+  .submitButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .error {
+    color: $error_3;
+    font-size: 0.875rem;
+  }
+}

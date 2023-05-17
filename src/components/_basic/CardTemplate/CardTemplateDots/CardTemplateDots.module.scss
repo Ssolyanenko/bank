@@ -1,0 +1,18 @@
+@import 'src/styles/variables.module.scss';
+
+.dotsWrapper {
+  width: 2.2em;
+  height: 0.4em;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+
+  .dot {
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    background-color: $white_1;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modalForm": {
+    "title": "Confirmation code",
+    "confirmationCode": "Enter the confirmation code sent to your number ",
+    "confirm": "Confirm",
+    "enterTheCode": "Enter the code",
+    "sessionKey": "4-digit session key"
+  }
+}

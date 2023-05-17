@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserAccount /> should make a snapshot 1`] = `
+<ForwardRef(Box)
+  className="userAccount"
+>
+  <Tabs>
+    <ForwardRef(Box)
+      title="General Info"
+    >
+      <GeneralInfo />
+    </ForwardRef(Box)>
+    <ForwardRef(Box)
+      title="Security"
+    >
+      <SecurityForm />
+    </ForwardRef(Box)>
+    <ForwardRef(Box)
+      title="Notifications"
+    >
+      <FormNotifications />
+    </ForwardRef(Box)>
+  </Tabs>
+</ForwardRef(Box)>
+`;

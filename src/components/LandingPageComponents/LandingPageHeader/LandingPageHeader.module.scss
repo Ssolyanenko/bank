@@ -1,0 +1,91 @@
+@import 'src/styles/variables.module.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  box-sizing: border-box;
+
+  & .headerRow {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    .logoWrapper {
+      padding-left: 32px;
+
+      .appLogo {
+        width: 60px;
+        height: 36px;
+        align-self: center;
+      }
+
+      .appLogoName {
+        font-weight: $bold;
+        font-size: 1.5rem;
+        align-self: end;
+        color: $orange;
+        margin-left: 24px;
+        opacity: 0;
+        transition: opacity 0.25s;
+      }
+
+      .appLogo:hover + .appLogoName {
+        opacity: 1;
+      }
+
+      .headerLinkLogo {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-start;
+      }
+    }
+
+    .headerLinkGroup {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .headerLink {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+
+        .linkPages {
+          display: flex;
+          font-weight: $normal;
+          font-size: 1rem;
+          margin: 0 24px 0 8px;
+
+          &:hover {
+            text-decoration: underline 2px $orange;
+            text-underline-offset: 6px;
+          }
+        }
+      }
+
+      .headerLogoutGroup {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+
+        .logoutButton {
+          font-size: 1rem;
+          background-color: transparent;
+          border: none;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-right: 48px;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline 2px $orange;
+            text-underline-offset: 6px;
+          }
+        }
+      }
+    }
+  }
+}

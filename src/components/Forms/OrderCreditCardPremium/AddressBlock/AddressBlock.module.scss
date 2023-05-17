@@ -1,0 +1,22 @@
+@import 'src/styles/variables.module.scss';
+
+.componentWrapper {
+  position: relative;
+
+  .elementWrapper {
+    margin-top: 2.25rem;
+    width: 320px;
+
+    .secondColumn {
+      position: absolute;
+      margin-left: 403px;
+      width: inherit;
+    }
+
+    .error {
+      color: $error_3;
+      margin: 8px 0 0 14px;
+      font-size: 0.875rem;
+    }
+  }
+}

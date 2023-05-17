@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferList /> should make a snapshot of the component 1`] = `
+<div
+  className="transferListWrapper"
+>
+  <h1
+    className="pageTitle"
+  >
+    Transfers list
+  </h1>
+  <Accordion
+    accordionList={
+      [
+        {
+          "content": <TransferByPhoneNumberForm />,
+          "id": "panel1",
+          "summary": {
+            "details": "You can only transfer to AMN clients",
+            "icon": <TransferPhoneIcon />,
+            "title": "By phone number",
+          },
+        },
+        {
+          "content": <span />,
+          "id": "panel2",
+          "summary": {
+            "details": "Transfer to AMN cards and cards issued by other banks",
+            "icon": <CardTemplateSimpleIcon />,
+            "title": "By card number",
+          },
+        },
+        {
+          "content": <span />,
+          "id": "panel3",
+          "summary": {
+            "details": "For accounts created in Great Britan",
+            "icon": <ListIcon />,
+            "title": "By account number",
+          },
+        },
+        {
+          "content": <span />,
+          "id": "panel4",
+          "summary": {
+            "icon": <CircledArrowsIcon />,
+            "title": "Between your cards",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;

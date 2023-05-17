@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalSuccess /> should make a snapshot of the component 1`] = `
+<Modal
+  handleClose={[MockFunction]}
+  isOpen={true}
+>
+  <div
+    className="successModalWrapper"
+  >
+    <CloseButton
+      className="closeButton"
+      onClick={[MockFunction]}
+      size="medium"
+    />
+    <div
+      className="contentWrapper"
+    >
+      <CheckmarkIcon />
+      <p
+        className="contentText"
+      >
+        Some dummy text
+      </p>
+    </div>
+  </div>
+</Modal>
+`;

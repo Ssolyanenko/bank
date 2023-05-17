@@ -1,0 +1,46 @@
+@import 'src/styles/variables.module.scss';
+
+.primaryBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  color: $grayDark_6;
+  background: $orange;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: 1rem;
+  border: 1px solid $orange;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.5s;
+  margin-top: 32px;
+
+  &:hover {
+    border-color: $brand_6;
+    background-color: $brand_6;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $brand_4;
+    border-color: $brand_4;
+    color: $grayDark_7;
+  }
+
+  &.small {
+    max-width: 143px;
+  }
+
+  &.medium {
+    max-width: 171px;
+  }
+
+  &.large {
+    max-width: 343px;
+  }
+}

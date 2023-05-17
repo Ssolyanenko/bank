@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDown /> should check renderValue with selected item 1`] = `
+{
+  "length": 1,
+}
+`;
+
+exports[`<DropDown /> should check renderValue without selected item 1`] = `
+{
+  "length": 0,
+}
+`;
+
+exports[`<DropDown /> should make custom snapshot 1`] = `
+<StyledEngineProvider
+  injectFirst={true}
+>
+  <ForwardRef(FormControl)
+    fullWidth={true}
+  >
+    <ForwardRef(InputLabel)
+      shrink={true}
+    >
+      
+    </ForwardRef(InputLabel)>
+    <ForwardRef(Select)
+      IconComponent={
+        {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "type": {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+        }
+      }
+      displayEmpty={true}
+      label=""
+      name="dropDown"
+      notched={true}
+      onChange={[MockFunction]}
+      renderValue={[Function]}
+      value=""
+    >
+      <ForwardRef(MenuItem)
+        className="dropDownItem"
+        value="test"
+      >
+        test
+        <ForwardRef(InputAdornment)
+          className="endAdornment"
+          position="end"
+        >
+          <Memo
+            className="endAdornment"
+            fontSize="small"
+          />
+        </ForwardRef(InputAdornment)>
+      </ForwardRef(MenuItem)>
+    </ForwardRef(Select)>
+  </ForwardRef(FormControl)>
+</StyledEngineProvider>
+`;

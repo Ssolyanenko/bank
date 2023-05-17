@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputRange /> should make a snapshot of component 1`] = `
+<ForwardRef(Slider)
+  className=""
+  max={100000}
+  min={0}
+  onChange={[MockFunction]}
+  value={
+    [
+      0,
+      10000,
+    ]
+  }
+  valueLabelDisplay="auto"
+/>
+`;

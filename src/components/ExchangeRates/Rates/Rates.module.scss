@@ -1,0 +1,53 @@
+@import 'src/styles/variables.module.scss';
+
+.exchangeRates {
+  max-width: 27.5rem;
+
+  & .tableHeader {
+    display: flex;
+  }
+}
+
+.firstCells {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.secondCells,
+.thirdCells {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+}
+
+.subTitle {
+  font-weight: $normal;
+  font-size: 0.875rem;
+  color: $grayDark_6;
+}
+
+.currencyRow {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  border-bottom: 2px solid $grayLight_5;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $grayDark_6;
+  font-weight: $normal;
+
+  & .currencyNameWrapper {
+    display: flex;
+    gap: 1rem;
+
+    & .abbreviation {
+      font-weight: $bold;
+    }
+
+    & .currencyName {
+      color: $grayDark_7;
+    }
+  }
+}

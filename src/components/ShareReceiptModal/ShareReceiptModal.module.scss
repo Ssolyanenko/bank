@@ -1,0 +1,32 @@
+@import 'src/styles/variables.module.scss';
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 272px;
+  border-radius: 8px;
+  background-color: $white_1;
+
+  .modalCloseButton {
+    align-self: flex-end;
+    padding-top: 1px;
+    padding-right: 1px;
+
+    button > svg > path {
+      stroke: $grayDark_6;
+    }
+  }
+
+  .contentWrapper {
+    padding-right: 118px;
+    padding-left: 117px;
+
+    .title {
+      font-weight: $normal;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $grayDark_6;
+    }
+  }
+}
